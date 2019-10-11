@@ -177,17 +177,262 @@ namespace Web.Data.Migrations
                     b.ToTable("AspNetUserTokens");
                 });
 
-            modelBuilder.Entity("Web.Models.Brand", b =>
+            modelBuilder.Entity("Web.Models.Domain.Address", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd();
 
-                    b.Property<string>("Name")
-                        .IsRequired();
+                    b.Property<string>("City");
+
+                    b.Property<string>("Country");
+
+                    b.Property<string>("Street");
+
+                    b.Property<string>("StreetHeight");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Brand");
+                    b.ToTable("Address");
+                });
+
+            modelBuilder.Entity("Web.Models.Domain.Client", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<long>("AddressId");
+
+                    b.Property<string>("BusinessName");
+
+                    b.Property<string>("Cuit");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("AddressId");
+
+                    b.ToTable("Client");
+                });
+
+            modelBuilder.Entity("Web.Models.Domain.Dock", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<bool>("Occupied");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Dock");
+                });
+
+            modelBuilder.Entity("Web.Models.Domain.Driver", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Dni");
+
+                    b.Property<string>("LastName");
+
+                    b.Property<string>("Name");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Driver");
+                });
+
+            modelBuilder.Entity("Web.Models.Domain.DriverPermit", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<long>("DriverId");
+
+                    b.Property<DateTime>("ExpirationDate");
+
+                    b.Property<long>("VehicleId");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DriverId");
+
+                    b.HasIndex("VehicleId");
+
+                    b.ToTable("DriverPermit");
+                });
+
+            modelBuilder.Entity("Web.Models.Domain.Merchandise", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<double>("BoxHeight");
+
+                    b.Property<double>("BoxLength");
+
+                    b.Property<double>("BoxWeight");
+
+                    b.Property<double>("BoxWidth");
+
+                    b.Property<string>("Description");
+
+                    b.Property<string>("ExternCode");
+
+                    b.Property<long>("RemittanceId");
+
+                    b.Property<int>("TotalBoxes");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("RemittanceId");
+
+                    b.ToTable("Merchandise");
+                });
+
+            modelBuilder.Entity("Web.Models.Domain.RTO", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("CertifiedBy");
+
+                    b.Property<DateTime>("ExpirationDate");
+
+                    b.Property<long>("VehicleId");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("VehicleId");
+
+                    b.ToTable("RTO");
+                });
+
+            modelBuilder.Entity("Web.Models.Domain.RUTA", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Category");
+
+                    b.Property<long>("ClientId");
+
+                    b.Property<DateTime>("CreationDate");
+
+                    b.Property<long>("VehicleId");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ClientId");
+
+                    b.HasIndex("VehicleId");
+
+                    b.ToTable("RUTA");
+                });
+
+            modelBuilder.Entity("Web.Models.Domain.Remittance", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<long>("ClientId");
+
+                    b.Property<DateTime>("Date");
+
+                    b.Property<string>("DeliveryType");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ClientId");
+
+                    b.ToTable("Remittance");
+                });
+
+            modelBuilder.Entity("Web.Models.Domain.Trailer", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("LicensePlate");
+
+                    b.Property<long>("TrailerInsuranceId");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("TrailerInsuranceId");
+
+                    b.ToTable("Trailer");
+                });
+
+            modelBuilder.Entity("Web.Models.Domain.TrailerInsurance", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<DateTime>("ExpirationDate");
+
+                    b.Property<string>("InsuranceBusinessName");
+
+                    b.Property<int>("PolicyNumber");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("TrailerInsurance");
+                });
+
+            modelBuilder.Entity("Web.Models.Domain.Vehicle", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Brand");
+
+                    b.Property<string>("LicensePlate");
+
+                    b.Property<string>("Model");
+
+                    b.Property<string>("Type");
+
+                    b.Property<long>("VehicleInsuranceId");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("VehicleInsuranceId");
+
+                    b.ToTable("Vehicle");
+                });
+
+            modelBuilder.Entity("Web.Models.Domain.VehicleInsurance", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<DateTime>("ExpirationDate");
+
+                    b.Property<string>("InsuranceBusinessName");
+
+                    b.Property<int>("PolicyNumber");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("VehicleInsurance");
+                });
+
+            modelBuilder.Entity("Web.Models.Domain.WarehouseLocation", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("Aisle");
+
+                    b.Property<string>("Level");
+
+                    b.Property<string>("Position");
+
+                    b.Property<string>("Section");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("WarehouseLocation");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -232,6 +477,80 @@ namespace Web.Data.Migrations
                     b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser")
                         .WithMany()
                         .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("Web.Models.Domain.Client", b =>
+                {
+                    b.HasOne("Web.Models.Domain.Address", "Address")
+                        .WithMany()
+                        .HasForeignKey("AddressId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("Web.Models.Domain.DriverPermit", b =>
+                {
+                    b.HasOne("Web.Models.Domain.Driver", "Driver")
+                        .WithMany()
+                        .HasForeignKey("DriverId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("Web.Models.Domain.Vehicle", "Vehicle")
+                        .WithMany()
+                        .HasForeignKey("VehicleId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("Web.Models.Domain.Merchandise", b =>
+                {
+                    b.HasOne("Web.Models.Domain.Remittance", "Remittance")
+                        .WithMany("Merchandise")
+                        .HasForeignKey("RemittanceId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("Web.Models.Domain.RTO", b =>
+                {
+                    b.HasOne("Web.Models.Domain.Vehicle", "Vehicle")
+                        .WithMany()
+                        .HasForeignKey("VehicleId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("Web.Models.Domain.RUTA", b =>
+                {
+                    b.HasOne("Web.Models.Domain.Client", "Client")
+                        .WithMany()
+                        .HasForeignKey("ClientId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("Web.Models.Domain.Vehicle", "Vehicle")
+                        .WithMany()
+                        .HasForeignKey("VehicleId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("Web.Models.Domain.Remittance", b =>
+                {
+                    b.HasOne("Web.Models.Domain.Client", "Client")
+                        .WithMany()
+                        .HasForeignKey("ClientId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("Web.Models.Domain.Trailer", b =>
+                {
+                    b.HasOne("Web.Models.Domain.TrailerInsurance", "Insurance")
+                        .WithMany()
+                        .HasForeignKey("TrailerInsuranceId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("Web.Models.Domain.Vehicle", b =>
+                {
+                    b.HasOne("Web.Models.Domain.VehicleInsurance", "Insurance")
+                        .WithMany()
+                        .HasForeignKey("VehicleInsuranceId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 #pragma warning restore 612, 618
