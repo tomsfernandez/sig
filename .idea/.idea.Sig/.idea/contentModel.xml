@@ -23,7 +23,6 @@
         </e>
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
-          <e p="BrandController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
         </e>
         <e p="Data" t="Include">
@@ -38,7 +37,22 @@
         </e>
         <e p="Models" t="Include">
           <e p="Domain" t="Include">
-            <e p="Brand.cs" t="Include" />
+            <e p="Address.cs" t="Include" />
+            <e p="Client.cs" t="Include" />
+            <e p="Dock.cs" t="Include" />
+            <e p="Driver.cs" t="Include" />
+            <e p="DriverPermit.cs" t="Include" />
+            <e p="Entry.cs" t="Include" />
+            <e p="Merchandise.cs" t="Include" />
+            <e p="MerchandiseInsurance.cs" t="Include" />
+            <e p="OperationState.cs" t="Include" />
+            <e p="Remittance.cs" t="Include" />
+            <e p="RTO.cs" t="Include" />
+            <e p="RUTA.cs" t="Include" />
+            <e p="Trailer.cs" t="Include" />
+            <e p="TrailerInsurance.cs" t="Include" />
+            <e p="Vehicle.cs" t="Include" />
+            <e p="VehicleInsurance.cs" t="Include" />
           </e>
           <e p="ErrorViewModel.cs" t="Include" />
         </e>
