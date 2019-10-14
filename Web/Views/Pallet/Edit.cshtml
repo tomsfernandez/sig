@@ -1,0 +1,66 @@
+@model Web.Models.Domain.Pallet
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Pallet</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="AmountOfBoxes" class="control-label"></label>
+                <input asp-for="AmountOfBoxes" class="form-control" />
+                <span asp-validation-for="AmountOfBoxes" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Weight" class="control-label"></label>
+                <input asp-for="Weight" class="form-control" />
+                <span asp-validation-for="Weight" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Height" class="control-label"></label>
+                <input asp-for="Height" class="form-control" />
+                <span asp-validation-for="Height" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EntryTimestamp" class="control-label"></label>
+                <input asp-for="EntryTimestamp" class="form-control" />
+                <span asp-validation-for="EntryTimestamp" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ExitTimestamp" class="control-label"></label>
+                <input asp-for="ExitTimestamp" class="form-control" />
+                <span asp-validation-for="ExitTimestamp" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="State" class="control-label"></label>
+                <input asp-for="State" class="form-control" />
+                <span asp-validation-for="State" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="WarehouseLocationId" class="control-label"></label>
+                <select asp-for="WarehouseLocationId" class="form-control" asp-items="ViewBag.WarehouseLocationId"></select>
+                <span asp-validation-for="WarehouseLocationId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MerchandiseId" class="control-label"></label>
+                <select asp-for="MerchandiseId" class="form-control" asp-items="ViewBag.MerchandiseId"></select>
+                <span asp-validation-for="MerchandiseId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

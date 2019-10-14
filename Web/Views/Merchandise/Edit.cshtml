@@ -1,0 +1,66 @@
+@model Web.Models.Domain.Merchandise
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Merchandise</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ExternCode" class="control-label"></label>
+                <input asp-for="ExternCode" class="form-control" />
+                <span asp-validation-for="ExternCode" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TotalBoxes" class="control-label"></label>
+                <input asp-for="TotalBoxes" class="form-control" />
+                <span asp-validation-for="TotalBoxes" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BoxHeight" class="control-label"></label>
+                <input asp-for="BoxHeight" class="form-control" />
+                <span asp-validation-for="BoxHeight" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BoxWidth" class="control-label"></label>
+                <input asp-for="BoxWidth" class="form-control" />
+                <span asp-validation-for="BoxWidth" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BoxLength" class="control-label"></label>
+                <input asp-for="BoxLength" class="form-control" />
+                <span asp-validation-for="BoxLength" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BoxWeight" class="control-label"></label>
+                <input asp-for="BoxWeight" class="form-control" />
+                <span asp-validation-for="BoxWeight" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="RemittanceId" class="control-label"></label>
+                <select asp-for="RemittanceId" class="form-control" asp-items="ViewBag.RemittanceId"></select>
+                <span asp-validation-for="RemittanceId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

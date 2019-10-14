@@ -23,6 +23,11 @@ namespace Web.Data {
         public DbSet<Web.Models.Domain.Trailer> Trailer { get; set; }
         public DbSet<Web.Models.Domain.DriverPermit> DriverPermit { get; set; }
         public DbSet<Web.Models.Domain.Remittance> Remittance { get; set; }
+        public DbSet<Web.Models.Domain.Entry> Entry { get; set; }
+        public DbSet<Web.Models.Domain.OperationState> OperationState { get; set; }
+        public DbSet<Web.Models.Domain.Merchandise> Merchandise { get; set; }
+        public DbSet<Web.Models.Domain.MerchandiseInsurance> MerchandiseInsurance { get; set; }
+        public DbSet<Web.Models.Domain.Pallet> Pallet { get; set; }
         
     }
 }

@@ -1,0 +1,63 @@
+@model IEnumerable<Web.Models.Domain.Entry>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Control de seguridad</h1>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.EntryDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ExitDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Remittance)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Driver)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Vehicle)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Trailer)
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.EntryDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ExitDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Remittance.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Driver.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Vehicle.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Trailer.Id)
+            </td>
+            @*<td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                Fecha de entrada, codigo remito, patente, dni del conductor -> Autorizar
+            </td>*@
+        </tr>
+    }
+    </tbody>
+</table>

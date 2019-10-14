@@ -1,0 +1,66 @@
+@model Web.Models.Domain.Merchandise
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Merchandise</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ExternCode)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ExternCode)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.TotalBoxes)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.TotalBoxes)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.BoxHeight)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.BoxHeight)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.BoxWidth)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.BoxWidth)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.BoxLength)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.BoxLength)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.BoxWeight)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.BoxWeight)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Remittance)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Remittance.Id)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>

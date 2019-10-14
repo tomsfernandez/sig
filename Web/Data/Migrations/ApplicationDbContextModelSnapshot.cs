@@ -261,6 +261,36 @@ namespace Web.Data.Migrations
                     b.ToTable("DriverPermit");
                 });
 
+            modelBuilder.Entity("Web.Models.Domain.Entry", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<long>("DriverId");
+
+                    b.Property<DateTime>("EntryDate");
+
+                    b.Property<DateTime>("ExitDate");
+
+                    b.Property<long>("RemittanceId");
+
+                    b.Property<long>("TrailerId");
+
+                    b.Property<long>("VehicleId");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DriverId");
+
+                    b.HasIndex("RemittanceId");
+
+                    b.HasIndex("TrailerId");
+
+                    b.HasIndex("VehicleId");
+
+                    b.ToTable("Entry");
+                });
+
             modelBuilder.Entity("Web.Models.Domain.Merchandise", b =>
                 {
                     b.Property<long>("Id")
@@ -287,6 +317,88 @@ namespace Web.Data.Migrations
                     b.HasIndex("RemittanceId");
 
                     b.ToTable("Merchandise");
+                });
+
+            modelBuilder.Entity("Web.Models.Domain.MerchandiseInsurance", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<string>("CoverageType");
+
+                    b.Property<DateTime>("ExpirationDate");
+
+                    b.Property<string>("InsuranceBusinessName");
+
+                    b.Property<string>("InsuredMerchandise");
+
+                    b.Property<int>("PolicyNumber");
+
+                    b.Property<long>("RemittanceId");
+
+                    b.Property<string>("SafetyMeasures");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("RemittanceId");
+
+                    b.ToTable("MerchandiseInsurance");
+                });
+
+            modelBuilder.Entity("Web.Models.Domain.OperationState", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<long>("DockId");
+
+                    b.Property<long>("EntryId");
+
+                    b.Property<string>("MerchandiseState");
+
+                    b.Property<long>("RemittanceId");
+
+                    b.Property<string>("RemittanceState");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("DockId");
+
+                    b.HasIndex("EntryId");
+
+                    b.HasIndex("RemittanceId");
+
+                    b.ToTable("OperationState");
+                });
+
+            modelBuilder.Entity("Web.Models.Domain.Pallet", b =>
+                {
+                    b.Property<long>("Id")
+                        .ValueGeneratedOnAdd();
+
+                    b.Property<int>("AmountOfBoxes");
+
+                    b.Property<DateTime>("EntryTimestamp");
+
+                    b.Property<DateTime>("ExitTimestamp");
+
+                    b.Property<double>("Height");
+
+                    b.Property<long>("MerchandiseId");
+
+                    b.Property<string>("State");
+
+                    b.Property<long>("WarehouseLocationId");
+
+                    b.Property<double>("Weight");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("MerchandiseId");
+
+                    b.HasIndex("WarehouseLocationId");
+
+                    b.ToTable("Pallet");
                 });
 
             modelBuilder.Entity("Web.Models.Domain.RTO", b =>
@@ -501,11 +613,73 @@ namespace Web.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
+            modelBuilder.Entity("Web.Models.Domain.Entry", b =>
+                {
+                    b.HasOne("Web.Models.Domain.Driver", "Driver")
+                        .WithMany()
+                        .HasForeignKey("DriverId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("Web.Models.Domain.Remittance", "Remittance")
+                        .WithMany()
+                        .HasForeignKey("RemittanceId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("Web.Models.Domain.Trailer", "Trailer")
+                        .WithMany()
+                        .HasForeignKey("TrailerId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("Web.Models.Domain.Vehicle", "Vehicle")
+                        .WithMany()
+                        .HasForeignKey("VehicleId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
             modelBuilder.Entity("Web.Models.Domain.Merchandise", b =>
                 {
                     b.HasOne("Web.Models.Domain.Remittance", "Remittance")
                         .WithMany("Merchandise")
                         .HasForeignKey("RemittanceId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("Web.Models.Domain.MerchandiseInsurance", b =>
+                {
+                    b.HasOne("Web.Models.Domain.Remittance", "Remittance")
+                        .WithMany()
+                        .HasForeignKey("RemittanceId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("Web.Models.Domain.OperationState", b =>
+                {
+                    b.HasOne("Web.Models.Domain.Dock", "Dock")
+                        .WithMany()
+                        .HasForeignKey("DockId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("Web.Models.Domain.Entry", "Entry")
+                        .WithMany()
+                        .HasForeignKey("EntryId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("Web.Models.Domain.Remittance", "Remittance")
+                        .WithMany()
+                        .HasForeignKey("RemittanceId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("Web.Models.Domain.Pallet", b =>
+                {
+                    b.HasOne("Web.Models.Domain.Merchandise", "Merchandise")
+                        .WithMany()
+                        .HasForeignKey("MerchandiseId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("Web.Models.Domain.WarehouseLocation", "WarehouseLocation")
+                        .WithMany()
+                        .HasForeignKey("WarehouseLocationId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });
 
