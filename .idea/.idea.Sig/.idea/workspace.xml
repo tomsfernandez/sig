@@ -2,186 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74c84bdc-fd82-43ce-a7f3-ca515c2c4c41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Sig/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Sig/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Controllers/EntryController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Controllers/MerchandiseController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Controllers/MerchandiseInsuranceController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Controllers/OperationStateController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Controllers/PalletController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Controllers/SecurityEntryController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Data/Migrations/20191014205946_AddEntry.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Data/Migrations/20191014205946_AddEntry.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Data/Migrations/20191014210314_AddOperationState.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Data/Migrations/20191014210314_AddOperationState.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Data/Migrations/20191014210512_AddMerchandise.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Data/Migrations/20191014210512_AddMerchandise.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Data/Migrations/20191014210624_AddMerchandiseInsurance.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Data/Migrations/20191014210624_AddMerchandiseInsurance.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Data/Migrations/20191014210745_AddPallet.Designer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Data/Migrations/20191014210745_AddPallet.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Views/Entry/Create.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Views/Entry/Delete.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Views/Entry/Details.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Views/Entry/Edit.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Views/Entry/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Views/Merchandise/Create.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Views/Merchandise/Delete.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Views/Merchandise/Details.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Views/Merchandise/Edit.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Views/Merchandise/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Views/MerchandiseInsurance/Create.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Views/MerchandiseInsurance/Delete.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Views/MerchandiseInsurance/Details.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Views/MerchandiseInsurance/Edit.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Views/MerchandiseInsurance/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Views/OperationState/Create.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Views/OperationState/Delete.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Views/OperationState/Details.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Views/OperationState/Edit.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Views/OperationState/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Views/Pallet/Create.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Views/Pallet/Delete.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Views/Pallet/Details.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Views/Pallet/Edit.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Views/Pallet/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Views/SecurityEntry/Index.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Entry/Create.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Entry/Delete.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Entry/Details.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Entry/Edit.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Entry/Index.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Merchandise/Create.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Merchandise/Delete.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Merchandise/Details.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Merchandise/Edit.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Merchandise/Index.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/MerchandiseInsurance/Create.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/MerchandiseInsurance/Delete.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/MerchandiseInsurance/Details.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/MerchandiseInsurance/Edit.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/MerchandiseInsurance/Index.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/OperationState/Create.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/OperationState/Delete.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/OperationState/Details.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/OperationState/Edit.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/OperationState/Index.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Pallet/Create.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Pallet/Delete.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Pallet/Details.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Pallet/Edit.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Pallet/Index.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/obj/Web.csproj.nuget.dgspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/Views/SecurityEntry/Detail.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/SecurityEntry/Detail.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/SecurityEntry/Index.g.cshtml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sig/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sig/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sig/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sig/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Data/ApplicationDbContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Data/Migrations/ApplicationDbContextModelSnapshot.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Data/Migrations/ApplicationDbContextModelSnapshot.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Views/Client/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Views/Client/Delete.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Views/DriverPermit/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Views/DriverPermit/Delete.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Views/RTO/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Views/RTO/Delete.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Views/RUTA/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Views/RUTA/Delete.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Views/Remittance/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Views/Remittance/Delete.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Views/Trailer/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Views/Trailer/Delete.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Views/Vehicle/Delete.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Views/Vehicle/Delete.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/Web/app.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/Controllers/SecurityEntryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Controllers/SecurityEntryController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/Views/SecurityEntry/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Views/SecurityEntry/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Views/Shared/_Layout.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/bin/Debug/netcoreapp2.2/Web.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Web/bin/Debug/netcoreapp2.2/Web.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/bin/Debug/netcoreapp2.2/Web.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Web/bin/Debug/netcoreapp2.2/Web.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/bin/Debug/netcoreapp2.2/Web.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/Web/bin/Debug/netcoreapp2.2/Web.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/bin/Debug/netcoreapp2.2/Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Web/bin/Debug/netcoreapp2.2/Web.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/bin/Debug/netcoreapp2.2/Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Web/bin/Debug/netcoreapp2.2/Web.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/bin/Debug/netcoreapp2.2/Web.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/Web/bin/Debug/netcoreapp2.2/Web.runtimeconfig.dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Areas/Identity/Pages/_ViewStart.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Areas/Identity/Pages/_ViewStart.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Address/Create.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Address/Create.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Address/Delete.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Address/Delete.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Address/Details.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Address/Details.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Address/Edit.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Address/Edit.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Address/Index.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Address/Index.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Client/Create.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Client/Create.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Client/Delete.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Client/Delete.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Client/Details.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Client/Details.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Client/Edit.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Client/Edit.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Client/Index.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Client/Index.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Dock/Create.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Dock/Create.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Dock/Delete.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Dock/Delete.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Dock/Details.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Dock/Details.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Dock/Edit.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Dock/Edit.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Dock/Index.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Dock/Index.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Driver/Create.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Driver/Create.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Driver/Delete.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Driver/Delete.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Driver/Details.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Driver/Details.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Driver/Edit.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Driver/Edit.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Driver/Index.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Driver/Index.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/DriverPermit/Create.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/DriverPermit/Create.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/DriverPermit/Delete.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/DriverPermit/Delete.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/DriverPermit/Details.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/DriverPermit/Details.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/DriverPermit/Edit.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/DriverPermit/Edit.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/DriverPermit/Index.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/DriverPermit/Index.g.cshtml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Home/Privacy.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/RTO/Create.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/RTO/Create.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/RTO/Delete.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/RTO/Delete.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/RTO/Details.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/RTO/Details.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/RTO/Edit.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/RTO/Edit.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/RTO/Index.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/RTO/Index.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/RUTA/Create.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/RUTA/Create.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/RUTA/Delete.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/RUTA/Delete.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/RUTA/Details.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/RUTA/Details.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/RUTA/Edit.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/RUTA/Edit.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/RUTA/Index.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/RUTA/Index.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Remittance/Create.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Remittance/Create.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Remittance/Delete.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Remittance/Delete.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Remittance/Details.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Remittance/Details.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Remittance/Edit.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Remittance/Edit.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Remittance/Index.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Remittance/Index.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Shared/Error.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_CookieConsentPartial.g.cshtml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_LoginPartial.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_LoginPartial.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_ValidationScriptsPartial.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Trailer/Create.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Trailer/Create.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Trailer/Delete.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Trailer/Delete.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Trailer/Details.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Trailer/Details.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Trailer/Edit.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Trailer/Edit.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Trailer/Index.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Trailer/Index.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/TrailerInsurance/Create.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/TrailerInsurance/Create.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/TrailerInsurance/Delete.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/TrailerInsurance/Delete.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/TrailerInsurance/Details.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/TrailerInsurance/Details.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/TrailerInsurance/Edit.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/TrailerInsurance/Edit.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/TrailerInsurance/Index.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/TrailerInsurance/Index.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Vehicle/Create.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Vehicle/Create.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Vehicle/Delete.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Vehicle/Delete.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Vehicle/Details.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Vehicle/Details.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Vehicle/Edit.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Vehicle/Edit.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Vehicle/Index.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Vehicle/Index.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/VehicleInsurance/Create.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/VehicleInsurance/Create.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/VehicleInsurance/Delete.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/VehicleInsurance/Delete.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/VehicleInsurance/Details.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/VehicleInsurance/Details.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/VehicleInsurance/Edit.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/VehicleInsurance/Edit.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/VehicleInsurance/Index.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/VehicleInsurance/Index.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/WarehouseLocation/Create.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/WarehouseLocation/Create.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/WarehouseLocation/Delete.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/WarehouseLocation/Delete.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/WarehouseLocation/Details.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/WarehouseLocation/Details.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/WarehouseLocation/Edit.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/WarehouseLocation/Edit.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/WarehouseLocation/Index.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/WarehouseLocation/Index.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/_ViewImports.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/_ViewStart.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.RazorCoreGenerate.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Web.csproj.EntityFrameworkCore.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Web.csproj.EntityFrameworkCore.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Web.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Web.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Web.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Web.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Web.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Web.csproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/global.json" beforeDir="false" afterPath="$PROJECT_DIR$/global.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -199,6 +40,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Web/Controllers/TrailerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Controllers/RTOController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Controllers/AddressController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Controllers/DriverController.cs" root0="FORCE_HIGHLIGHTING" />
@@ -236,12 +78,19 @@
     <setting file="file://$PROJECT_DIR$/Web/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/Address/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Home/Privacy.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/MerchandiseInsurance/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/Entry/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Shared/_LoginPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Shared/Error.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/RTO/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Shared/_ValidationScriptsPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/OperationState/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/Trailer/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/Remittance/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Controllers/PalletController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/DriverPermit/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/Pallet/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/Vehicle/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
@@ -252,6 +101,7 @@
     <setting file="file://$PROJECT_DIR$/Web/app.config" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/Client/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/SecurityEntry/Detail.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -293,8 +143,11 @@
         <option value="$PROJECT_DIR$/Web/Views/RUTA/Delete.cshtml" />
         <option value="$PROJECT_DIR$/Web/Views/Trailer/Delete.cshtml" />
         <option value="$PROJECT_DIR$/Web/Views/Vehicle/Delete.cshtml" />
+        <option value="$PROJECT_DIR$/Web/Controllers/SecurityEntryDetailController.cs" />
         <option value="$PROJECT_DIR$/Web/Controllers/SecurityEntryController.cs" />
+        <option value="$PROJECT_DIR$/Web/Views/Home/Index.cshtml" />
         <option value="$PROJECT_DIR$/Web/Views/SecurityEntry/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Web/Views/Shared/_Layout.cshtml" />
       </list>
     </option>
   </component>
@@ -394,8 +247,16 @@
       <workItem from="1567869553024" duration="2169000" />
       <workItem from="1568416096192" duration="3489000" />
       <workItem from="1570829020515" duration="598000" />
-      <workItem from="1571085139497" duration="3245000" />
+      <workItem from="1571085139497" duration="6434000" />
     </task>
+    <task id="LOCAL-00001" summary="add controllers">
+      <created>1571088545157</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571088545157</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,6 +279,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add controllers" />
+    <option name="LAST_COMMIT_MESSAGE" value="add controllers" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1638" height="295" key="GridCell.Tab.0.bottom" />
@@ -430,6 +293,8 @@
     <state width="1638" height="295" key="GridCell.Tab.0.right/3360.2100" />
     <state x="333" y="174" width="1087" height="701" key="SettingsEditor" />
     <state x="333" y="174" width="1087" height="701" key="SettingsEditor/3360.2100" />
+    <state x="524" y="257" key="Vcs.Push.Dialog" />
+    <state x="524" y="257" key="Vcs.Push.Dialog/3360.2100" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

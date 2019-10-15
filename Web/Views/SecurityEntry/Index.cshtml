@@ -10,24 +10,21 @@
     <thead>
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.EntryDate)
+            Fecha de entrada
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.ExitDate)
+            Número de remito
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Remittance)
+            DNI de conductor
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Driver)
+            Patente del vehículo
         </th>
         <th>
-            @Html.DisplayNameFor(model => model.Vehicle)
+            Patente del trailer
         </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Trailer)
-        </th>
-        <th></th>
+        <th>Acciones</th>
     </tr>
     </thead>
     <tbody>
@@ -37,19 +34,19 @@
                 @Html.DisplayFor(modelItem => item.EntryDate)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.ExitDate)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.Remittance.Id)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Driver.Id)
+                @Html.DisplayFor(modelItem => item.Driver.Dni)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Vehicle.Id)
+                @Html.DisplayFor(modelItem => item.Vehicle.LicensePlate)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Trailer.Id)
+                @Html.DisplayFor(modelItem => item.Trailer.LicensePlate)
+            </td>
+            <td>
+                <a asp-action="Detail" asp-route-id="@item.Id">Ver detalle</a>
             </td>
             @*<td>
                 <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |

@@ -21,7 +21,7 @@
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Web</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">SIG</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -29,11 +29,48 @@
                 <div class="navbar-collapse collapse d-sm-inline-flex flex-sm-row-reverse">
                     <partial name="_LoginPartial" />
                     <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
+                        @*<li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>*@
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="SecurityEntry" asp-action="Index">Control de seguridad</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="SecurityEntry" asp-action="Index">Remitos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="SecurityEntry" asp-action="Index">Descarga</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="SecurityEntry" asp-action="Index">Almacenamiento</a>
+                        </li>
+                        <li class="nav-item">
+                            <div class="dropdown">
+                              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                Data
+                                <span class="caret"></span>
+                              </button>
+                              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                  <li> <a asp-area="" asp-controller="Address" asp-action="Index">Direcciones</a></li>
+                                  <li> <a asp-area="" asp-controller="Client" asp-action="Index">Clientes</a></li>
+                                  <li> <a asp-area="" asp-controller="Dock" asp-action="Index">Docks</a></li>
+                                  <li> <a asp-area="" asp-controller="Driver" asp-action="Index">Choferes</a></li>
+                                  <li> <a asp-area="" asp-controller="DriverPermit" asp-action="Index">Permidos de conducir</a></li>
+                                  <li> <a asp-area="" asp-controller="Entry" asp-action="Index">Pedido</a></li>
+                                  <li> <a asp-area="" asp-controller="Merchandise" asp-action="Index">Mercaderia</a></li>
+                                  <li> <a asp-area="" asp-controller="MerchandiseInsurance" asp-action="Index">Permiso de mercaderia</a></li>
+                                  <li> <a asp-area="" asp-controller="OperationState" asp-action="Index">Estados de operción</a></li>
+                                  <li> <a asp-area="" asp-controller="Pallet" asp-action="Index">Pallet</a></li>
+                                  <li> <a asp-area="" asp-controller="Remittance" asp-action="Index">Remito</a></li>
+                                  <li> <a asp-area="" asp-controller="RTO" asp-action="Index">RTO</a></li>
+                                  <li> <a asp-area="" asp-controller="RUTA" asp-action="Index">RUTA</a></li>
+                                  <li> <a asp-area="" asp-controller="Trailer" asp-action="Index">Trailer</a></li>
+                                  <li> <a asp-area="" asp-controller="TrailerInsurance" asp-action="Index">Permiso de trailer</a></li>
+                                  <li> <a asp-area="" asp-controller="Vehicle" asp-action="Index">Vehiculos</a></li>
+                                  <li> <a asp-area="" asp-controller="VehicleInsurance" asp-action="Index">Permiso de vehiculos</a></li>
+                                  <li> <a asp-area="" asp-controller="WarehouseLocation" asp-action="Index">Locations</a></li>
+                              </ul>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -49,7 +86,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2019 - Web - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; Todos Los Derechos Reservados © 2019 SIG
         </div>
     </footer>
 

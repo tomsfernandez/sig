@@ -199,6 +199,7 @@
             <e p="Index.cshtml" t="Include" />
           </e>
           <e p="SecurityEntry" t="Include">
+            <e p="Detail.cshtml" t="Include" />
             <e p="Index.cshtml" t="Include" />
           </e>
           <e p="Shared" t="Include">

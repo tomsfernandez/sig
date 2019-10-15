@@ -219,3 +219,5 @@ C:/Users/TomasGreencode/home/projects/Sig/Web/obj/Debug/netcoreapp2.2/Razor/View
 /Users/tomasforman/sandbox/sig/Web/obj/Debug/netcoreapp2.2/Razor/Views/Pallet/Details.g.cshtml.cs
 /Users/tomasforman/sandbox/sig/Web/obj/Debug/netcoreapp2.2/Razor/Views/Pallet/Edit.g.cshtml.cs
 /Users/tomasforman/sandbox/sig/Web/obj/Debug/netcoreapp2.2/Razor/Views/Pallet/Index.g.cshtml.cs
+/Users/tomasforman/sandbox/sig/Web/obj/Debug/netcoreapp2.2/Razor/Views/SecurityEntry/Detail.g.cshtml.cs
+/Users/tomasforman/sandbox/sig/Web/obj/Debug/netcoreapp2.2/Razor/Views/SecurityEntry/Index.g.cshtml.cs

@@ -27,5 +27,32 @@ namespace Web.Controllers
            
             return View(await entries.ToListAsync());
         }
+
+        // GET SecurityEntry/Detail/4
+        public async Task<IActionResult> Detail(long? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+            
+            var info = _context.Entry
+                .Where(e => e.EntryDate.Date == DateTime.Today)
+                .Include(t => t.Driver)
+                .Include(t => t.Remittance)
+                .Include(t => t.Trailer)
+                .Include(t => t.Vehicle)
+                .FirstOrDefaultAsync(m => m.Id == id);;
+
+            return View(await info);
+        }
+        
+        // POST: SecurityEntry/Authorize/5
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Authorize(long entryId)
+        {
+            return NotFound();
+        }
     }
 }
