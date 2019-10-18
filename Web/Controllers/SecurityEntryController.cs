@@ -36,7 +36,7 @@ namespace Web.Controllers
                 return NotFound();
             }
             
-            var info = _context.Entry
+            var info = await _context.Entry
                 .Where(e => e.EntryDate.Date == DateTime.Today)
                 .Include(t => t.Driver)
                 .Include(t => t.Remittance)
@@ -44,14 +44,46 @@ namespace Web.Controllers
                 .Include(t => t.Vehicle)
                 .FirstOrDefaultAsync(m => m.Id == id);;
 
-            return View(await info);
+            if (info == null)
+            {
+                return NotFound();
+            }
+
+            return View(info);
         }
         
         // POST: SecurityEntry/Authorize/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Authorize(long entryId)
+        public async Task<IActionResult> Authorize(long? entryId)
         {
+            return NotFound();
+        }
+
+        public async Task<IActionResult> Reject(long? entryId)
+        {
+            if (entryId == null)
+            {
+                return BadRequest();
+            }
+            var entry = await _context.Entry.FirstOrDefaultAsync(m => m.Id == entryId);
+            
+            entry.ExitDate = new DateTime();
+            
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _context.Update(entry);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    return NotFound();
+                }
+                return RedirectToAction(nameof(Index));
+            }
+            
             return NotFound();
         }
     }
