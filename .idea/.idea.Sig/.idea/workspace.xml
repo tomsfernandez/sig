@@ -2,27 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74c84bdc-fd82-43ce-a7f3-ca515c2c4c41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Web/Views/SecurityEntry/Detail.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/SecurityEntry/Detail.g.cshtml.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/SecurityEntry/Index.g.cshtml.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/Views/RemittanceControl/Detail.cshtml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Web/Views/RemittanceControl/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sig/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sig/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sig/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sig/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/Controllers/SecurityEntryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Controllers/SecurityEntryController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/Views/SecurityEntry/Detail.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Views/SecurityEntry/Detail.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/Views/SecurityEntry/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Views/SecurityEntry/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Views/Shared/_Layout.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Views/Shared/_Layout.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/Views/Vehicle/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Views/Vehicle/Create.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/Web/app.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/bin/Debug/netcoreapp2.2/Web.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Web/bin/Debug/netcoreapp2.2/Web.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/bin/Debug/netcoreapp2.2/Web.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Web/bin/Debug/netcoreapp2.2/Web.Views.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/bin/Debug/netcoreapp2.2/Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Web/bin/Debug/netcoreapp2.2/Web.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/bin/Debug/netcoreapp2.2/Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Web/bin/Debug/netcoreapp2.2/Web.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Home/Index.g.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/SecurityEntry/Detail.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/SecurityEntry/Detail.g.cshtml.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/SecurityEntry/Index.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/SecurityEntry/Index.g.cshtml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.RazorCoreGenerate.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.RazorCoreGenerate.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Vehicle/Create.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Vehicle/Create.g.cshtml.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.Views.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/obj/Web.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Web.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/obj/Web.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Web.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/project.assets.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,7 +52,10 @@
     <setting file="file://$PROJECT_DIR$/Web/Controllers/ClientController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Controllers/RUTAController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Controllers/DriverPermitController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Controllers/VehicleController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Controllers/RemittanceController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/RemittanceControl/Detail.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/RemittanceControl/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/SecurityEntry/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/Merchandise/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Models/Domain/OperationState.cs" root0="FORCE_HIGHLIGHTING" />
@@ -74,6 +81,7 @@
     <setting file="file://$PROJECT_DIR$/Web/Data/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Data/Migrations/20191014205946_AddEntry.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/Entry/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Address/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/Address/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/Address/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
@@ -83,17 +91,26 @@
     <setting file="file://$PROJECT_DIR$/Web/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/Entry/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/Shared/_LoginPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/RTO/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/Shared/Error.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/RTO/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Controllers/OperationStateController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/RTO/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/RTO/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/Shared/_ValidationScriptsPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/RTO/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/OperationState/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/Trailer/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Remittance/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/Remittance/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Controllers/PalletController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/DriverPermit/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/Pallet/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Vehicle/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Vehicle/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/Vehicle/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/RUTA/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/RUTA/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/Client/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
@@ -144,10 +161,13 @@
         <option value="$PROJECT_DIR$/Web/Views/Trailer/Delete.cshtml" />
         <option value="$PROJECT_DIR$/Web/Views/Vehicle/Delete.cshtml" />
         <option value="$PROJECT_DIR$/Web/Controllers/SecurityEntryDetailController.cs" />
-        <option value="$PROJECT_DIR$/Web/Controllers/SecurityEntryController.cs" />
         <option value="$PROJECT_DIR$/Web/Views/Home/Index.cshtml" />
-        <option value="$PROJECT_DIR$/Web/Views/SecurityEntry/Index.cshtml" />
         <option value="$PROJECT_DIR$/Web/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/Web/Views/Vehicle/Create.cshtml" />
+        <option value="$PROJECT_DIR$/Web/Views/SecurityEntry/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Web/Views/SecurityEntry/Detail.cshtml" />
+        <option value="$PROJECT_DIR$/Web/Controllers/SecurityEntryController.cs" />
+        <option value="$PROJECT_DIR$/Web/Views/RemittanceControl/Index.cshtml" />
       </list>
     </option>
   </component>
@@ -247,7 +267,10 @@
       <workItem from="1567869553024" duration="2169000" />
       <workItem from="1568416096192" duration="3489000" />
       <workItem from="1570829020515" duration="598000" />
-      <workItem from="1571085139497" duration="6434000" />
+      <workItem from="1571085139497" duration="6470000" />
+      <workItem from="1571276136416" duration="2791000" />
+      <workItem from="1571333992637" duration="1467000" />
+      <workItem from="1571438455597" duration="1808000" />
     </task>
     <task id="LOCAL-00001" summary="add controllers">
       <created>1571088545157</created>
@@ -256,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571088545157</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add menu">
+      <created>1571141486641</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1571141486642</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,21 +310,31 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="add controllers" />
-    <option name="LAST_COMMIT_MESSAGE" value="add controllers" />
+    <MESSAGE value="add menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="add menu" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="295" key="GridCell.Tab.0.bottom" />
+    <state width="1638" height="73" key="GridCell.Tab.0.bottom" />
+    <state width="1638" height="73" key="GridCell.Tab.0.bottom/1920.1080/3360.2100" />
     <state width="1638" height="295" key="GridCell.Tab.0.bottom/3360.2100" />
-    <state width="1638" height="295" key="GridCell.Tab.0.center" />
+    <state width="1638" height="295" key="GridCell.Tab.0.bottom/3360.2100/1920.1080" />
+    <state width="1638" height="73" key="GridCell.Tab.0.center" />
+    <state width="1638" height="73" key="GridCell.Tab.0.center/1920.1080/3360.2100" />
     <state width="1638" height="295" key="GridCell.Tab.0.center/3360.2100" />
-    <state width="1638" height="295" key="GridCell.Tab.0.left" />
+    <state width="1638" height="295" key="GridCell.Tab.0.center/3360.2100/1920.1080" />
+    <state width="1638" height="73" key="GridCell.Tab.0.left" />
+    <state width="1638" height="73" key="GridCell.Tab.0.left/1920.1080/3360.2100" />
     <state width="1638" height="295" key="GridCell.Tab.0.left/3360.2100" />
-    <state width="1638" height="295" key="GridCell.Tab.0.right" />
+    <state width="1638" height="295" key="GridCell.Tab.0.left/3360.2100/1920.1080" />
+    <state width="1638" height="73" key="GridCell.Tab.0.right" />
+    <state width="1638" height="73" key="GridCell.Tab.0.right/1920.1080/3360.2100" />
     <state width="1638" height="295" key="GridCell.Tab.0.right/3360.2100" />
+    <state width="1638" height="295" key="GridCell.Tab.0.right/3360.2100/1920.1080" />
     <state x="333" y="174" width="1087" height="701" key="SettingsEditor" />
     <state x="333" y="174" width="1087" height="701" key="SettingsEditor/3360.2100" />
     <state x="524" y="257" key="Vcs.Push.Dialog" />
     <state x="524" y="257" key="Vcs.Push.Dialog/3360.2100" />
+    <state x="524" y="257" key="Vcs.Push.Dialog/3360.2100/1920.1080" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,0 +1,80 @@
+@model Web.Models.SecurityViewModel
+
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<h1>Detalles</h1>
+
+<div class="row">
+    <div class="col-md-6 driver">
+        <h2>Chofer</h2>
+        <h4>Nombre</h4>
+        <p>@Html.DisplayFor(model => model.Entry.Driver.Name)</p>
+        <h4>Apellido</h4>
+        <p>@Html.DisplayFor(model => model.Entry.Driver.LastName)</p>
+        <h4>DNI</h4>
+        <p>@Html.DisplayFor(model => model.Entry.Driver.Dni)</p>
+    </div>
+    <div class="col-md-6">
+        <h2>Cédula Azul</h2>
+        <p>@Html.DisplayFor(model => model.DriverPermit.ExpirationDate)</p>
+    </div>
+</div>
+<hr/>
+<div class="row">
+    <div class="col-md-6 driver">
+        <h2>Vehiculo</h2>
+        <h4>Marca</h4>
+        <p>@Html.DisplayFor(model => model.Entry.Vehicle.Brand)</p>
+        <h4>Modelo</h4>
+        <p>@Html.DisplayFor(model => model.Entry.Vehicle.Model)</p>
+        <h4>Patente</h4>
+        <p>@Html.DisplayFor(model => model.Entry.Vehicle.LicensePlate)</p>
+    </div>
+    <div class="col-md-6">
+        <h2>Permiso Vehiculo</h2>
+        <h4>Numero de poliza</h4>
+        <p>@Html.DisplayFor(model => model.Entry.Vehicle.Insurance.PolicyNumber)</p>
+        <h4>Fecha de expiracion</h4>
+        <p>@Html.DisplayFor(model => model.Entry.Vehicle.Insurance.ExpirationDate)</p>
+        <h4>Nombre aseguradora</h4>
+        <p>@Html.DisplayFor(model => model.Entry.Vehicle.Insurance.InsuranceBusinessName)</p>
+    </div>
+</div>
+<hr/>
+<div class="row">
+    <div class="col-md-6 driver">
+        <h2>Remito</h2>
+        <h4>Cliente</h4>
+        <p>@Html.DisplayFor(model => model.Entry.Remittance.Client)</p>
+        <h4>Numero</h4>
+        <p>@Html.DisplayFor(model => model.Entry.Remittance.Id)</p>
+        <h4>Tipo de delivery</h4>
+        <p>@Html.DisplayFor(model => model.Entry.Remittance.DeliveryType)</p>
+    </div>
+    <div class="col-md-6">
+        <h2>Permiso Vehiculo</h2>
+        <h4>Numero de poliza</h4>
+        <p>@Html.DisplayFor(model => model.Entry.Vehicle.Insurance.PolicyNumber)</p>
+        <h4>Fecha de expiracion</h4>
+        <p>@Html.DisplayFor(model => model.Entry.Vehicle.Insurance.ExpirationDate)</p>
+        <h4>Nombre aseguradora</h4>
+        <p>@Html.DisplayFor(model => model.Entry.Vehicle.Insurance.InsuranceBusinessName)</p>
+    </div>
+</div>
+<hr/>
+<div class="row">
+    <div class="col-md-12 text-center" style="display: flex; justify-content: center; align-items: center">
+        <form asp-action="Reject" style="margin-right: 10px">
+            <input type="hidden" asp-for="Entry.Id"/>
+            <button type="submit" value="Reject" class="btn btn-danger">Rechazar</button>
+        </form>
+        <form asp-action="Authorize" style="margin-right: 10px">
+            <input type="hidden" asp-for="Entry.Id"/>
+            <button type="submit" value="Authorize" class="btn btn-success">Autorizar</button>
+        </form>
+    </div>
+</div>
+
+<a asp-action="Index">Volver</a>
