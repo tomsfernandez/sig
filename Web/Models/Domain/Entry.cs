@@ -3,8 +3,8 @@ using System;
 namespace Web.Models.Domain {
     public class Entry {
         public long Id { get; set; }
-        public DateTime EntryDate { get; set; }
-        public DateTime ExitDate { get; set; }
+        public DateTime? EntryDate { get; set; }
+        public DateTime? ExitDate { get; set; }
         public Remittance Remittance { get; set; }
         public long RemittanceId { get; set; }
         public Driver Driver { get; set; }

@@ -28,6 +28,6 @@ namespace Web.Data {
         public DbSet<Web.Models.Domain.Merchandise> Merchandise { get; set; }
         public DbSet<Web.Models.Domain.MerchandiseInsurance> MerchandiseInsurance { get; set; }
         public DbSet<Web.Models.Domain.Pallet> Pallet { get; set; }
-        
+
     }
 }

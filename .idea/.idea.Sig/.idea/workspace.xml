@@ -2,31 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74c84bdc-fd82-43ce-a7f3-ca515c2c4c41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Web/Views/RemittanceControl/Detail.cshtml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Web/Views/RemittanceControl/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sig/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sig/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Sig/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Sig/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Controllers/SecurityEntryController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Controllers/SecurityEntryController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Views/SecurityEntry/Detail.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Views/SecurityEntry/Detail.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Views/SecurityEntry/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Views/SecurityEntry/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/Views/Vehicle/Create.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Views/Vehicle/Create.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/app.db" beforeDir="false" afterPath="$PROJECT_DIR$/Web/app.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/bin/Debug/netcoreapp2.2/Web.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Web/bin/Debug/netcoreapp2.2/Web.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/bin/Debug/netcoreapp2.2/Web.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Web/bin/Debug/netcoreapp2.2/Web.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/bin/Debug/netcoreapp2.2/Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Web/bin/Debug/netcoreapp2.2/Web.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/bin/Debug/netcoreapp2.2/Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Web/bin/Debug/netcoreapp2.2/Web.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/SecurityEntry/Detail.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/SecurityEntry/Detail.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/SecurityEntry/Index.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/SecurityEntry/Index.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Shared/_Layout.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Vehicle/Create.g.cshtml.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Razor/Views/Vehicle/Create.g.cshtml.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Debug/netcoreapp2.2/Web.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Web.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Web.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/Web.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/Web.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Web/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/Web/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/Data/ApplicationDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Data/ApplicationDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/Models/Domain/Entry.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Models/Domain/Entry.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/Models/Domain/OperationState.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Models/Domain/OperationState.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/Models/SecurityViewModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Models/SecurityViewModel.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web/Web.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Web/Web.csproj" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,91 +16,238 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Web/Controllers/SecurityEntryController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+              <folding>
+                <marker date="1571501720434" expanded="false" signature="6:165" ph="..." />
+                <marker date="1571501720434" expanded="true" signature="193:2718" ph="{...}" />
+                <marker date="1571501720434" expanded="true" signature="249:2716" ph="{...}" />
+                <marker date="1571501720434" expanded="true" signature="377:420" ph="{...}" />
+                <marker date="1571501720434" expanded="true" signature="471:815" ph="{...}" />
+                <marker date="1571501720434" expanded="true" signature="913:1813" ph="{...}" />
+                <marker date="1571501720434" expanded="true" signature="943:993" ph="{...}" />
+                <marker date="1571501720434" expanded="true" signature="1668:1718" ph="{...}" />
+                <marker date="1571501720434" expanded="true" signature="1978:2020" ph="{...}" />
+                <marker date="1571501720434" expanded="true" signature="2085:2710" ph="{...}" />
+                <marker date="1571501720434" expanded="true" signature="2120:2172" ph="{...}" />
+                <marker date="1571501720434" expanded="true" signature="2345:2668" ph="{...}" />
+                <marker date="1571501720434" expanded="true" signature="2367:2485" ph="{...}" />
+                <marker date="1571501720434" expanded="true" signature="2539:2597" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Web/Models/Domain/OperationState.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+              <folding>
+                <marker date="1571501866588" expanded="true" signature="43:603" ph="{...}" />
+                <marker date="1571501866588" expanded="true" signature="77:601" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Web/Models/Domain/Remittance.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+              <folding>
+                <marker date="1570829475859" expanded="false" signature="6:47" ph="..." />
+                <marker date="1570829475859" expanded="true" signature="77:391" ph="{...}" />
+                <marker date="1570829475859" expanded="true" signature="107:389" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Web/Models/Domain/Pallet.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+              <folding>
+                <marker date="1570829852257" expanded="true" signature="43:615" ph="{...}" />
+                <marker date="1570829852257" expanded="true" signature="69:613" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Web/Models/ErrorViewModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+              <folding>
+                <marker date="1565462750394" expanded="true" signature="36:197" ph="{...}" />
+                <marker date="1565462750394" expanded="true" signature="70:195" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Web/Models/SecurityViewModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+              <folding>
+                <marker date="1571501659181" expanded="true" signature="47:189" ph="{...}" />
+                <marker date="1571501659181" expanded="true" signature="84:187" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Web/Models/Domain/Driver.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+              <folding>
+                <marker date="1571501286240" expanded="true" signature="48:247" ph="{...}" />
+                <marker date="1571501286240" expanded="true" signature="74:245" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Web/Views/SecurityEntry/Detail.cshtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="20" column="75" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
+              <folding>
+                <marker date="1571501659164" expanded="true" signature="37:75" ph="@..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Web/Controllers/RUTAController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Address</find>
+      <find>model.</find>
     </findStrings>
+    <replaceStrings>
+      <replace>model.Entry</replace>
+      <replace>model.Entry.</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Web/Controllers/TrailerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Data/Migrations/ApplicationDbContextModelSnapshot.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/RUTA/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Data/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/RUTA/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Data/Migrations/00000000000000_CreateIdentitySchema.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Controllers/RUTAController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/WarehouseLocation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/app.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/Pallet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/RTO/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/RTO/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/RTO/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/RTO/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/RTO/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Controllers/RTOController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/MerchandiseInsurance/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Merchandise/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Remittance/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Remittance/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/OperationState/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Remittance/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Remittance/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/SecurityEntry/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/SecurityEntry/Detail.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Client/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Client/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Client/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Controllers/RemittanceController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Client/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Controllers/ClientController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Pallet/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Entry/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Address/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Entry/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/DriverPermit/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Entry/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/Dock.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Controllers/AddressController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Address/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/Entry.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Controllers/DriverPermitController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Address/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Models/SecurityViewModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Controllers/DriverController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Controllers/SecurityEntryController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Controllers/ClientController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Controllers/RUTAController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Controllers/DriverPermitController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Controllers/VehicleController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Controllers/RemittanceController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/RemittanceControl/Detail.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/RemittanceControl/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/SecurityEntry/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/Merchandise/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/OperationState.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/Driver.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/RUTA.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/Trailer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/DriverPermit.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/Remittance.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/Vehicle.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/WarehouseLocation.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/VehicleInsurance.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/RTO.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/Entry.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/Address.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/Pallet.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/Client.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/Dock.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/Merchandise.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/MerchandiseInsurance.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/TrailerInsurance.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Controllers/EntryController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/WarehouseLocation/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Data/ApplicationDbContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Data/Migrations/20191014205946_AddEntry.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/Entry/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/Address/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/Address/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/Address/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/_ViewImports.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/Home/Privacy.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/MerchandiseInsurance/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/Entry/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/Shared/_LoginPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/RTO/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/Shared/Error.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/RTO/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Controllers/OperationStateController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/RTO/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/RTO/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/Shared/_ValidationScriptsPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/RTO/Edit.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/OperationState/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/Trailer/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/Remittance/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/Remittance/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Controllers/PalletController.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/DriverPermit/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/Pallet/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Data/Migrations/20191014205946_AddEntry.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Controllers/TrailerController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/RemittanceControl/Detail.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Controllers/OperationStateController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Controllers/SecurityEntryController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/Vehicle/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/Vehicle/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web/Views/Vehicle/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/RUTA/Details.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/RUTA/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Program.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/Client/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/Client/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/app.config" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/Client/Delete.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Startup.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Web/Views/SecurityEntry/Detail.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Vehicle/Create.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Controllers/EntryController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/RemittanceControl/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Controllers/VehicleController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Controllers/PalletController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/WarehouseLocation/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Data/Migrations/20191011215202_AddDriver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/OperationState.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/Merchandise.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Data/Migrations/20191011215202_AddDriver.Designer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/RTO.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/DriverPermit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/TrailerInsurance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/Trailer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/Remittance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/MerchandiseInsurance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/VehicleInsurance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/RUTA.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/Address.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/Client.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/Vehicle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Models/Domain/Driver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Models/ErrorViewModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Shared/_LoginPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Home/Privacy.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Shared/Error.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Views/Shared/_ValidationScriptsPartial.cshtml" root0="FORCE_HIGHLIGHTING" root1="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -131,23 +260,18 @@
         <option value="$PROJECT_DIR$/Web/Views/Brand/Details.cshtml" />
         <option value="$PROJECT_DIR$/Web/Views/Brand/Delete.cshtml" />
         <option value="$PROJECT_DIR$/Web/Models/Domain/Brand.cs" />
-        <option value="$PROJECT_DIR$/Web/Models/Domain/Driver.cs" />
         <option value="$PROJECT_DIR$/Web/Models/Domain/Address.cs" />
         <option value="$PROJECT_DIR$/Web/Models/Domain/VehicleInsurance.cs" />
-        <option value="$PROJECT_DIR$/Web/Data/ApplicationDbContext.cs" />
         <option value="$PROJECT_DIR$/Web/Models/Domain/TrailerInsurance.cs" />
         <option value="$PROJECT_DIR$/Web/Models/Domain/Client.cs" />
-        <option value="$PROJECT_DIR$/Web/Models/Domain/DriverPermit.cs" />
         <option value="$PROJECT_DIR$/Web/Models/Domain/Merchandise.cs" />
         <option value="$PROJECT_DIR$/Web/Models/Domain/MerchandiseInsurance.cs" />
-        <option value="$PROJECT_DIR$/Web/Models/Domain/OperationState.cs" />
         <option value="$PROJECT_DIR$/Web/Models/Domain/Dock.cs" />
         <option value="$PROJECT_DIR$/Web/Models/Domain/Remittance.cs" />
         <option value="$PROJECT_DIR$/Web/Models/Domain/RTO.cs" />
         <option value="$PROJECT_DIR$/Web/Models/Domain/RUTA.cs" />
         <option value="$PROJECT_DIR$/Web/Models/Domain/Trailer.cs" />
         <option value="$PROJECT_DIR$/Web/Models/Domain/Vehicle.cs" />
-        <option value="$PROJECT_DIR$/Web/Models/Domain/Entry.cs" />
         <option value="$PROJECT_DIR$/Web/Views/Entry/Delete.cshtml" />
         <option value="$PROJECT_DIR$/Web/Views/Client/Delete.cshtml" />
         <option value="$PROJECT_DIR$/Web/Views/DriverPermit/Delete.cshtml" />
@@ -164,10 +288,17 @@
         <option value="$PROJECT_DIR$/Web/Views/Home/Index.cshtml" />
         <option value="$PROJECT_DIR$/Web/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/Web/Views/Vehicle/Create.cshtml" />
+        <option value="$PROJECT_DIR$/Web/Views/RemittanceControl/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Web/Views/Entry/Create.cshtml" />
+        <option value="$PROJECT_DIR$/Web/Models/Domain/Entry.cs" />
         <option value="$PROJECT_DIR$/Web/Views/SecurityEntry/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Web/Models/Domain/DriverPermit.cs" />
+        <option value="$PROJECT_DIR$/Web/Data/ApplicationDbContext.cs" />
+        <option value="$PROJECT_DIR$/Web/Models/Domain/Driver.cs" />
+        <option value="$PROJECT_DIR$/Web/Models/SecurityViewModel.cs" />
         <option value="$PROJECT_DIR$/Web/Views/SecurityEntry/Detail.cshtml" />
         <option value="$PROJECT_DIR$/Web/Controllers/SecurityEntryController.cs" />
-        <option value="$PROJECT_DIR$/Web/Views/RemittanceControl/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Web/Models/Domain/OperationState.cs" />
       </list>
     </option>
   </component>
@@ -183,6 +314,68 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="161ac34:FileSystemExplorerRootNode" />
+              <item name="Sig" type="34e6ba20:FileSystemExplorerNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Sig" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Sig" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Web" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Sig" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Web" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Sig" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Web" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Models" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Domain" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Sig" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Web" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Sig" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Web" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="SecurityEntry" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
@@ -197,6 +390,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.C#" />
   </component>
   <component name="RunDashboard">
@@ -289,6 +483,40 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2535000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28120807" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32732317" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3994452" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32871014" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32871014" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Unit Tests" order="12" />
+      <window_info anchor="bottom" id="REST Client" order="13" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="14" visible="true" weight="0.43550625" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Build" order="16" weight="0.32732317" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3295302" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -300,8 +528,28 @@
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
@@ -345,5 +593,301 @@
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>entries.Count()</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.entries.Count()</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>this.entries.Count)=</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>_context.Entry.Include(x =&gt; x.Remittance).First()</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>_context.Entry.Find((long) 1)</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>_context.Entry.Find(1l)</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>_context.Entry.Find(1)</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>_context.Entry.First().Remittance</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>_context.Entry.First()</expression-string>
+        <language-id>C#</language-id>
+        <custom-info>RiderImportsList:</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/global.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Views/Client/Details.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1570831473445" expanded="true" signature="33:72" ph="@..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Views/Client/Delete.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1571254597901" expanded="true" signature="33:71" ph="@..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Views/Entry/Create.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <marker date="1571500022282" expanded="true" signature="32:70" ph="@..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Models/Domain/Entry.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+          <folding>
+            <marker date="1571500400740" expanded="true" signature="43:573" ph="{...}" />
+            <marker date="1571500400740" expanded="true" signature="68:571" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Views/SecurityEntry/Index.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="33" column="71" selection-start-line="33" selection-start-column="71" selection-end-line="33" selection-end-column="71" />
+          <folding>
+            <marker date="1571500721839" expanded="true" signature="45:82" ph="@..." />
+            <marker date="1571500721839" expanded="true" signature="510:1210" ph="@..." />
+            <marker date="1571500721839" expanded="true" signature="539:1210" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Controllers/DriverPermitController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="24" column="76" selection-start-line="24" selection-start-column="76" selection-end-line="24" selection-end-column="76" />
+          <folding>
+            <marker date="1570831890109" expanded="false" signature="6:248" ph="..." />
+            <marker date="1570831890109" expanded="true" signature="275:5647" ph="{...}" />
+            <marker date="1570831890109" expanded="true" signature="330:5645" ph="{...}" />
+            <marker date="1570831890109" expanded="true" signature="461:513" ph="{...}" />
+            <marker date="1570831890109" expanded="true" signature="592:788" ph="{...}" />
+            <marker date="1570831890109" expanded="true" signature="887:1335" ph="{...}" />
+            <marker date="1570831890109" expanded="true" signature="925:988" ph="{...}" />
+            <marker date="1570831890109" expanded="true" signature="1222:1285" ph="{...}" />
+            <marker date="1570831890109" expanded="true" signature="1410:1619" ph="{...}" />
+            <marker date="1570831890109" expanded="true" signature="1629:1844" ph="/* POST: DriverPermit/Create ... */" />
+            <marker date="1570831890109" expanded="true" signature="2020:2503" ph="{...}" />
+            <marker date="1570831890109" expanded="true" signature="2066:2245" ph="{...}" />
+            <marker date="1570831890109" expanded="true" signature="2596:3131" ph="{...}" />
+            <marker date="1570831890109" expanded="true" signature="2634:2697" ph="{...}" />
+            <marker date="1570831890109" expanded="true" signature="2810:2873" ph="{...}" />
+            <marker date="1570831890109" expanded="true" signature="3141:3356" ph="/* POST: DriverPermit/Edit/5 ... */" />
+            <marker date="1570831890109" expanded="true" signature="3539:4530" ph="{...}" />
+            <marker date="1570831890109" expanded="true" signature="3588:3651" ph="{...}" />
+            <marker date="1570831890109" expanded="true" signature="3688:4272" ph="{...}" />
+            <marker date="1570831890109" expanded="true" signature="3722:3864" ph="{...}" />
+            <marker date="1570831890109" expanded="true" signature="3917:4202" ph="{...}" />
+            <marker date="1570831890109" expanded="true" signature="3997:4084" ph="{...}" />
+            <marker date="1570831890109" expanded="true" signature="4109:4184" ph="{...}" />
+            <marker date="1570831890109" expanded="true" signature="4627:5075" ph="{...}" />
+            <marker date="1570831890109" expanded="true" signature="4665:4728" ph="{...}" />
+            <marker date="1570831890109" expanded="true" signature="4962:5025" ph="{...}" />
+            <marker date="1570831890109" expanded="true" signature="5257:5506" ph="{...}" />
+            <marker date="1570831890109" expanded="true" signature="5556:5639" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Data/ApplicationDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-134">
+          <caret line="29" column="67" selection-start-line="29" selection-start-column="67" selection-end-line="29" selection-end-column="67" />
+          <folding>
+            <marker date="1571501659196" expanded="false" signature="6:203" ph="..." />
+            <marker date="1571501659196" expanded="true" signature="224:1760" ph="{...}" />
+            <marker date="1571501659196" expanded="true" signature="284:1758" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Models/Domain/Vehicle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          <folding>
+            <marker date="1570829475818" expanded="true" signature="28:385" ph="{...}" />
+            <marker date="1570829475818" expanded="true" signature="55:383" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Models/Domain/DriverPermit.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="9" selection-end-column="42" />
+          <folding>
+            <marker date="1571500975126" expanded="true" signature="43:350" ph="{...}" />
+            <marker date="1571500975126" expanded="true" signature="75:348" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Models/Domain/Driver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding>
+            <marker date="1571501286240" expanded="true" signature="48:247" ph="{...}" />
+            <marker date="1571501286240" expanded="true" signature="74:245" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Models/ErrorViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding>
+            <marker date="1565462750394" expanded="true" signature="36:197" ph="{...}" />
+            <marker date="1565462750394" expanded="true" signature="70:195" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Models/SecurityViewModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+          <folding>
+            <marker date="1571501659181" expanded="true" signature="47:189" ph="{...}" />
+            <marker date="1571501659181" expanded="true" signature="84:187" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Views/SecurityEntry/Detail.cshtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="20" column="75" selection-start-line="20" selection-start-column="75" selection-end-line="20" selection-end-column="75" />
+          <folding>
+            <marker date="1571501659164" expanded="true" signature="37:75" ph="@..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Controllers/RUTAController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Controllers/SecurityEntryController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+          <folding>
+            <marker date="1571501720434" expanded="false" signature="6:165" ph="..." />
+            <marker date="1571501720434" expanded="true" signature="193:2718" ph="{...}" />
+            <marker date="1571501720434" expanded="true" signature="249:2716" ph="{...}" />
+            <marker date="1571501720434" expanded="true" signature="377:420" ph="{...}" />
+            <marker date="1571501720434" expanded="true" signature="471:815" ph="{...}" />
+            <marker date="1571501720434" expanded="true" signature="913:1813" ph="{...}" />
+            <marker date="1571501720434" expanded="true" signature="943:993" ph="{...}" />
+            <marker date="1571501720434" expanded="true" signature="1668:1718" ph="{...}" />
+            <marker date="1571501720434" expanded="true" signature="1978:2020" ph="{...}" />
+            <marker date="1571501720434" expanded="true" signature="2085:2710" ph="{...}" />
+            <marker date="1571501720434" expanded="true" signature="2120:2172" ph="{...}" />
+            <marker date="1571501720434" expanded="true" signature="2345:2668" ph="{...}" />
+            <marker date="1571501720434" expanded="true" signature="2367:2485" ph="{...}" />
+            <marker date="1571501720434" expanded="true" signature="2539:2597" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Models/Domain/Remittance.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding>
+            <marker date="1570829475859" expanded="false" signature="6:47" ph="..." />
+            <marker date="1570829475859" expanded="true" signature="77:391" ph="{...}" />
+            <marker date="1570829475859" expanded="true" signature="107:389" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Models/Domain/Pallet.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding>
+            <marker date="1570829852257" expanded="true" signature="43:615" ph="{...}" />
+            <marker date="1570829852257" expanded="true" signature="69:613" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Models/Domain/OperationState.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+          <folding>
+            <marker date="1571501866588" expanded="true" signature="43:603" ph="{...}" />
+            <marker date="1571501866588" expanded="true" signature="77:601" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

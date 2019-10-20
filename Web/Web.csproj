@@ -38,26 +38,40 @@
 
     <ItemGroup>
       <_ResolveComReferenceCache Remove="obj\Debug\netcoreapp2.2\Web.csproj.ResolveComReference.cache" />
+      <_ResolveComReferenceCache Remove="obj\Debug\netcoreapp2.2\Web.csproj.ResolveComReference.cache" />
     </ItemGroup>
 
     <ItemGroup>
+      <IntermediateAssembly Remove="obj\Debug\netcoreapp2.2\Web.dll" />
       <IntermediateAssembly Remove="obj\Debug\netcoreapp2.2\Web.dll" />
     </ItemGroup>
 
     <ItemGroup>
       <_DebugSymbolsIntermediatePath Remove="obj\Debug\netcoreapp2.2\Web.pdb" />
+      <_DebugSymbolsIntermediatePath Remove="obj\Debug\netcoreapp2.2\Web.pdb" />
     </ItemGroup>
 
     <ItemGroup>
+      <_DeploymentManifestEntryPoint Remove="obj\Debug\netcoreapp2.2\Web.dll" />
       <_DeploymentManifestEntryPoint Remove="obj\Debug\netcoreapp2.2\Web.dll" />
     </ItemGroup>
 
     <ItemGroup>
       <ApplicationManifest Remove="obj\Debug\netcoreapp2.2\Web.dll.manifest" />
+      <ApplicationManifest Remove="obj\Debug\netcoreapp2.2\Web.dll.manifest" />
     </ItemGroup>
 
     <ItemGroup>
       <DeployManifest Remove="obj\Debug\netcoreapp2.2\Web.application" />
+      <DeployManifest Remove="obj\Debug\netcoreapp2.2\Web.application" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ClsidMap Remove="obj\Debug\netcoreapp2.2\Web.clsidmap" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <RegFreeComManifest Remove="obj\Debug\netcoreapp2.2\Web.X.manifest" />
     </ItemGroup>
 
 </Project>
