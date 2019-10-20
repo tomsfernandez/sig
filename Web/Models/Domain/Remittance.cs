@@ -10,5 +10,6 @@ namespace Web.Models.Domain {
         public Client Client { get; set; }
         public long ClientId { get; set; }
         public List<Merchandise> Merchandise { get; set; }
+        public OperationState OperationState { get; set; }
     }
 }

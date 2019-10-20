@@ -13,8 +13,8 @@ namespace Web.Data.Migrations
                 {
                     Id = table.Column<long>(nullable: false)
                         .Annotation("Sqlite:Autoincrement", true),
-                    EntryDate = table.Column<DateTime>(nullable: false),
-                    ExitDate = table.Column<DateTime>(nullable: false),
+                    EntryDate = table.Column<DateTime>(nullable: true),
+                    ExitDate = table.Column<DateTime>(nullable: true),
                     RemittanceId = table.Column<long>(nullable: false),
                     DriverId = table.Column<long>(nullable: false),
                     VehicleId = table.Column<long>(nullable: false),

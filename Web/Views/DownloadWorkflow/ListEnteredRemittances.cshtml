@@ -1,0 +1,43 @@
+@model IEnumerable<RemittanceToDownload>
+
+@{
+    ViewBag.Title = "Remitos a descargar";
+    Layout = "_Layout";
+}
+
+<h1>Remitos a descargar</h1>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            Cliente
+        </th>
+        <th>
+            Tipo de descarga
+        </th>
+        <th>
+            Estado
+        </th>
+        <th>
+            Boca asignada
+        </th>
+        <th>Acciones</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.ClientName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DeliveryType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.State)
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

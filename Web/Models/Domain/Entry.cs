@@ -13,5 +13,9 @@ namespace Web.Models.Domain {
         public long VehicleId { get; set; }
         public Trailer Trailer { get; set; }
         public long TrailerId { get; set; }
+
+        public bool HasEntered() {
+            return EntryDate.HasValue;
+        }
     }
 }
