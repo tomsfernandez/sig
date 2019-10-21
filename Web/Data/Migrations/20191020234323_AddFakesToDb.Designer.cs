@@ -2,15 +2,17 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Web.Data;
 
 namespace Web.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20191020234323_AddFakesToDb")]
+    partial class AddFakesToDb
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -198,82 +200,82 @@ namespace Web.Data.Migrations
                         new
                         {
                             Id = 1L,
-                            City = "Lake Adolphusmouth",
-                            Country = "Monaco",
-                            Street = "Cedrick Isle",
-                            StreetHeight = "87820"
+                            City = "West Zena",
+                            Country = "Egypt",
+                            Street = "Kulas Squares",
+                            StreetHeight = "86495"
                         },
                         new
                         {
                             Id = 2L,
-                            City = "New Toy",
-                            Country = "Chad",
-                            Street = "Deborah Expressway",
-                            StreetHeight = "881"
+                            City = "West Lenoreton",
+                            Country = "Solomon Islands",
+                            Street = "Abbott Light",
+                            StreetHeight = "63198"
                         },
                         new
                         {
                             Id = 3L,
-                            City = "Port Talon",
-                            Country = "Seychelles",
-                            Street = "Curt Junctions",
-                            StreetHeight = "894"
+                            City = "East Gregoria",
+                            Country = "Montserrat",
+                            Street = "Ullrich Dale",
+                            StreetHeight = "5029"
                         },
                         new
                         {
                             Id = 4L,
-                            City = "West Armand",
-                            Country = "South Africa",
-                            Street = "Winifred Mount",
-                            StreetHeight = "185"
+                            City = "Port Christyside",
+                            Country = "Argentina",
+                            Street = "Homenick Locks",
+                            StreetHeight = "8345"
                         },
                         new
                         {
                             Id = 5L,
-                            City = "Port Frederichaven",
-                            Country = "Congo",
-                            Street = "Sauer Meadow",
-                            StreetHeight = "29959"
+                            City = "New Coraliemouth",
+                            Country = "Switzerland",
+                            Street = "Schoen Prairie",
+                            StreetHeight = "9962"
                         },
                         new
                         {
                             Id = 6L,
-                            City = "New Lauretta",
-                            Country = "Swaziland",
-                            Street = "Tianna Lake",
-                            StreetHeight = "16251"
+                            City = "South Patrickstad",
+                            Country = "Slovakia (Slovak Republic)",
+                            Street = "Fatima Dale",
+                            StreetHeight = "85874"
                         },
                         new
                         {
                             Id = 7L,
-                            City = "East Salvatorefurt",
-                            Country = "Singapore",
-                            Street = "Kiel Passage",
-                            StreetHeight = "013"
+                            City = "West Verona",
+                            Country = "Bahrain",
+                            Street = "Novella Station",
+                            StreetHeight = "8428"
                         },
                         new
                         {
                             Id = 8L,
-                            City = "West Lillyberg",
-                            Country = "United States Minor Outlying Islands",
-                            Street = "Lesch Spur",
-                            StreetHeight = "15838"
+                            City = "East Webster",
+                            Country = "Poland",
+                            Street = "Adela Neck",
+                            StreetHeight = "030"
                         },
                         new
                         {
                             Id = 9L,
-                            City = "New Tayaville",
-                            Country = "French Polynesia",
-                            Street = "Eldora Knolls",
-                            StreetHeight = "213"
+                            City = "Port Brain",
+                            Country = "El Salvador",
+                            Street = "Zelda Drive",
+                            StreetHeight = "30491"
                         },
                         new
                         {
                             Id = 10L,
-                            City = "Aaronborough",
-                            Country = "Sudan",
-                            Street = "Horacio Neck",
-                            StreetHeight = "57049"
+                            City = "Port Scottieview",
+                            Country = "Bahrain",
+                            Street = "Clay Wall",
+                            StreetHeight = "7388"
                         });
                 });
 
@@ -299,71 +301,71 @@ namespace Web.Data.Migrations
                         {
                             Id = 1L,
                             AddressId = 1L,
-                            BusinessName = "Schmitt, Abbott and Orn",
-                            Cuit = "62482387"
+                            BusinessName = "Lang, Hammes and Becker",
+                            Cuit = "44466060"
                         },
                         new
                         {
                             Id = 2L,
                             AddressId = 2L,
-                            BusinessName = "Schuster Group",
-                            Cuit = "03215852"
+                            BusinessName = "McLaughlin - Parker",
+                            Cuit = "29854073"
                         },
                         new
                         {
                             Id = 3L,
                             AddressId = 3L,
-                            BusinessName = "Satterfield, Steuber and Walker",
-                            Cuit = "03131121"
+                            BusinessName = "Brakus LLC",
+                            Cuit = "27101452"
                         },
                         new
                         {
                             Id = 4L,
                             AddressId = 4L,
-                            BusinessName = "Hilll and Sons",
-                            Cuit = "44258849"
+                            BusinessName = "Lynch Group",
+                            Cuit = "36090570"
                         },
                         new
                         {
                             Id = 5L,
                             AddressId = 5L,
-                            BusinessName = "Morar - King",
-                            Cuit = "26521596"
+                            BusinessName = "Hansen - Sipes",
+                            Cuit = "20657697"
                         },
                         new
                         {
                             Id = 6L,
                             AddressId = 6L,
-                            BusinessName = "Bins, Haley and Senger",
-                            Cuit = "01759341"
+                            BusinessName = "Kessler, Schultz and Heidenreich",
+                            Cuit = "64686332"
                         },
                         new
                         {
                             Id = 7L,
                             AddressId = 7L,
-                            BusinessName = "Fay LLC",
-                            Cuit = "04459958"
+                            BusinessName = "Dooley - Krajcik",
+                            Cuit = "48625883"
                         },
                         new
                         {
                             Id = 8L,
                             AddressId = 8L,
-                            BusinessName = "Watsica, Beahan and Kshlerin",
-                            Cuit = "14647918"
+                            BusinessName = "Walsh - Haley",
+                            Cuit = "17241069"
                         },
                         new
                         {
                             Id = 9L,
                             AddressId = 9L,
-                            BusinessName = "Farrell - Fisher",
-                            Cuit = "90642593"
+                            BusinessName = "Lynch LLC",
+                            Cuit = "87757231"
                         },
                         new
                         {
                             Id = 10L,
                             AddressId = 10L,
-                            BusinessName = "Lemke, Yost and Gleichner",
-                            Cuit = "37210618"
+                            BusinessName = "Keeling Inc",
+                            Cuit = "31138208"
                         });
                 });
 
@@ -377,58 +379,6 @@ namespace Web.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Dock");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1L,
-                            Occupied = false
-                        },
-                        new
-                        {
-                            Id = 2L,
-                            Occupied = false
-                        },
-                        new
-                        {
-                            Id = 3L,
-                            Occupied = false
-                        },
-                        new
-                        {
-                            Id = 4L,
-                            Occupied = false
-                        },
-                        new
-                        {
-                            Id = 5L,
-                            Occupied = false
-                        },
-                        new
-                        {
-                            Id = 6L,
-                            Occupied = false
-                        },
-                        new
-                        {
-                            Id = 7L,
-                            Occupied = false
-                        },
-                        new
-                        {
-                            Id = 8L,
-                            Occupied = false
-                        },
-                        new
-                        {
-                            Id = 9L,
-                            Occupied = false
-                        },
-                        new
-                        {
-                            Id = 10L,
-                            Occupied = false
-                        });
                 });
 
             modelBuilder.Entity("Web.Models.Domain.Driver", b =>
@@ -450,72 +400,72 @@ namespace Web.Data.Migrations
                         new
                         {
                             Id = 1L,
-                            Dni = "153.108.75.35",
-                            LastName = "Heathcote",
-                            Name = "Dino"
+                            Dni = "58.33.185.22",
+                            LastName = "Langworth",
+                            Name = "Corbin"
                         },
                         new
                         {
                             Id = 2L,
-                            Dni = "219.188.16.31",
-                            LastName = "King",
-                            Name = "Damaris"
+                            Dni = "128.57.223.34",
+                            LastName = "Mosciski",
+                            Name = "Corrine"
                         },
                         new
                         {
                             Id = 3L,
-                            Dni = "78.129.0.104",
-                            LastName = "Jacobs",
-                            Name = "Ansley"
+                            Dni = "137.173.17.236",
+                            LastName = "Moore",
+                            Name = "Maida"
                         },
                         new
                         {
                             Id = 4L,
-                            Dni = "221.22.186.114",
-                            LastName = "Sipes",
-                            Name = "Joanny"
+                            Dni = "158.16.21.138",
+                            LastName = "Leffler",
+                            Name = "Emil"
                         },
                         new
                         {
                             Id = 5L,
-                            Dni = "103.15.54.200",
-                            LastName = "King",
-                            Name = "Leola"
+                            Dni = "183.25.181.243",
+                            LastName = "O'Kon",
+                            Name = "Abigale"
                         },
                         new
                         {
                             Id = 6L,
-                            Dni = "81.166.69.13",
-                            LastName = "Schmidt",
-                            Name = "Adolf"
+                            Dni = "234.157.236.18",
+                            LastName = "Donnelly",
+                            Name = "Hanna"
                         },
                         new
                         {
                             Id = 7L,
-                            Dni = "242.204.201.74",
-                            LastName = "Leffler",
-                            Name = "Leola"
+                            Dni = "213.114.167.71",
+                            LastName = "Hermann",
+                            Name = "Dayne"
                         },
                         new
                         {
                             Id = 8L,
-                            Dni = "115.224.162.21",
-                            LastName = "Rowe",
-                            Name = "Marilie"
+                            Dni = "222.34.41.136",
+                            LastName = "Lind",
+                            Name = "Solon"
                         },
                         new
                         {
                             Id = 9L,
-                            Dni = "97.99.42.193",
-                            LastName = "Lynch",
-                            Name = "Danielle"
+                            Dni = "75.49.118.190",
+                            LastName = "Donnelly",
+                            Name = "Cordie"
                         },
                         new
                         {
                             Id = 10L,
-                            Dni = "106.38.235.117",
-                            LastName = "Doyle",
-                            Name = "Myriam"
+                            Dni = "240.175.208.50",
+                            LastName = "Brekke",
+                            Name = "Garnet"
                         });
                 });
 
@@ -537,78 +487,6 @@ namespace Web.Data.Migrations
                     b.HasIndex("VehicleId");
 
                     b.ToTable("DriverPermit");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1L,
-                            DriverId = 1L,
-                            ExpirationDate = new DateTime(2020, 6, 4, 21, 7, 7, 945, DateTimeKind.Local).AddTicks(7413),
-                            VehicleId = 1L
-                        },
-                        new
-                        {
-                            Id = 2L,
-                            DriverId = 2L,
-                            ExpirationDate = new DateTime(2020, 3, 2, 6, 17, 40, 957, DateTimeKind.Local).AddTicks(4432),
-                            VehicleId = 2L
-                        },
-                        new
-                        {
-                            Id = 3L,
-                            DriverId = 3L,
-                            ExpirationDate = new DateTime(2020, 5, 29, 0, 41, 29, 335, DateTimeKind.Local).AddTicks(8504),
-                            VehicleId = 3L
-                        },
-                        new
-                        {
-                            Id = 4L,
-                            DriverId = 4L,
-                            ExpirationDate = new DateTime(2020, 8, 20, 15, 43, 57, 388, DateTimeKind.Local).AddTicks(8658),
-                            VehicleId = 4L
-                        },
-                        new
-                        {
-                            Id = 5L,
-                            DriverId = 5L,
-                            ExpirationDate = new DateTime(2020, 8, 15, 18, 0, 49, 369, DateTimeKind.Local).AddTicks(6351),
-                            VehicleId = 5L
-                        },
-                        new
-                        {
-                            Id = 6L,
-                            DriverId = 6L,
-                            ExpirationDate = new DateTime(2020, 1, 29, 10, 28, 21, 564, DateTimeKind.Local).AddTicks(9537),
-                            VehicleId = 6L
-                        },
-                        new
-                        {
-                            Id = 7L,
-                            DriverId = 7L,
-                            ExpirationDate = new DateTime(2020, 7, 3, 7, 31, 58, 78, DateTimeKind.Local).AddTicks(6014),
-                            VehicleId = 7L
-                        },
-                        new
-                        {
-                            Id = 8L,
-                            DriverId = 8L,
-                            ExpirationDate = new DateTime(2020, 7, 9, 22, 1, 29, 517, DateTimeKind.Local).AddTicks(703),
-                            VehicleId = 8L
-                        },
-                        new
-                        {
-                            Id = 9L,
-                            DriverId = 9L,
-                            ExpirationDate = new DateTime(2020, 7, 20, 7, 18, 30, 730, DateTimeKind.Local).AddTicks(2160),
-                            VehicleId = 9L
-                        },
-                        new
-                        {
-                            Id = 10L,
-                            DriverId = 10L,
-                            ExpirationDate = new DateTime(2020, 3, 7, 17, 53, 26, 402, DateTimeKind.Local).AddTicks(5398),
-                            VehicleId = 10L
-                        });
                 });
 
             modelBuilder.Entity("Web.Models.Domain.Entry", b =>
@@ -772,78 +650,6 @@ namespace Web.Data.Migrations
                     b.HasIndex("VehicleId");
 
                     b.ToTable("RTO");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1L,
-                            CertifiedBy = "Ministerio de Transporte",
-                            ExpirationDate = new DateTime(2020, 9, 13, 11, 28, 15, 714, DateTimeKind.Local).AddTicks(4659),
-                            VehicleId = 1L
-                        },
-                        new
-                        {
-                            Id = 2L,
-                            CertifiedBy = "Ministerio de Transporte",
-                            ExpirationDate = new DateTime(2020, 8, 6, 13, 0, 54, 967, DateTimeKind.Local).AddTicks(9230),
-                            VehicleId = 2L
-                        },
-                        new
-                        {
-                            Id = 3L,
-                            CertifiedBy = "Ministerio de Transporte",
-                            ExpirationDate = new DateTime(2020, 9, 24, 14, 18, 18, 920, DateTimeKind.Local).AddTicks(82),
-                            VehicleId = 3L
-                        },
-                        new
-                        {
-                            Id = 4L,
-                            CertifiedBy = "Ministerio de Transporte",
-                            ExpirationDate = new DateTime(2020, 5, 30, 3, 10, 40, 169, DateTimeKind.Local).AddTicks(1364),
-                            VehicleId = 4L
-                        },
-                        new
-                        {
-                            Id = 5L,
-                            CertifiedBy = "Ministerio de Transporte",
-                            ExpirationDate = new DateTime(2019, 12, 19, 2, 46, 46, 383, DateTimeKind.Local).AddTicks(5923),
-                            VehicleId = 5L
-                        },
-                        new
-                        {
-                            Id = 6L,
-                            CertifiedBy = "Ministerio de Transporte",
-                            ExpirationDate = new DateTime(2019, 12, 10, 14, 22, 19, 256, DateTimeKind.Local).AddTicks(4673),
-                            VehicleId = 6L
-                        },
-                        new
-                        {
-                            Id = 7L,
-                            CertifiedBy = "Ministerio de Transporte",
-                            ExpirationDate = new DateTime(2020, 3, 3, 13, 43, 19, 485, DateTimeKind.Local).AddTicks(6941),
-                            VehicleId = 7L
-                        },
-                        new
-                        {
-                            Id = 8L,
-                            CertifiedBy = "Ministerio de Transporte",
-                            ExpirationDate = new DateTime(2020, 9, 3, 7, 27, 7, 853, DateTimeKind.Local).AddTicks(4572),
-                            VehicleId = 8L
-                        },
-                        new
-                        {
-                            Id = 9L,
-                            CertifiedBy = "Ministerio de Transporte",
-                            ExpirationDate = new DateTime(2019, 12, 20, 6, 45, 47, 871, DateTimeKind.Local).AddTicks(124),
-                            VehicleId = 9L
-                        },
-                        new
-                        {
-                            Id = 10L,
-                            CertifiedBy = "Ministerio de Transporte",
-                            ExpirationDate = new DateTime(2020, 8, 5, 11, 33, 18, 79, DateTimeKind.Local).AddTicks(8896),
-                            VehicleId = 10L
-                        });
                 });
 
             modelBuilder.Entity("Web.Models.Domain.RUTA", b =>
@@ -900,68 +706,6 @@ namespace Web.Data.Migrations
                     b.HasIndex("TrailerInsuranceId");
 
                     b.ToTable("Trailer");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1L,
-                            LicensePlate = "31007",
-                            TrailerInsuranceId = 1L
-                        },
-                        new
-                        {
-                            Id = 2L,
-                            LicensePlate = "55378",
-                            TrailerInsuranceId = 2L
-                        },
-                        new
-                        {
-                            Id = 3L,
-                            LicensePlate = "13624-8577",
-                            TrailerInsuranceId = 3L
-                        },
-                        new
-                        {
-                            Id = 4L,
-                            LicensePlate = "40806",
-                            TrailerInsuranceId = 4L
-                        },
-                        new
-                        {
-                            Id = 5L,
-                            LicensePlate = "01645-1506",
-                            TrailerInsuranceId = 5L
-                        },
-                        new
-                        {
-                            Id = 6L,
-                            LicensePlate = "59629-4992",
-                            TrailerInsuranceId = 6L
-                        },
-                        new
-                        {
-                            Id = 7L,
-                            LicensePlate = "08936-4387",
-                            TrailerInsuranceId = 7L
-                        },
-                        new
-                        {
-                            Id = 8L,
-                            LicensePlate = "17795",
-                            TrailerInsuranceId = 8L
-                        },
-                        new
-                        {
-                            Id = 9L,
-                            LicensePlate = "03008",
-                            TrailerInsuranceId = 9L
-                        },
-                        new
-                        {
-                            Id = 10L,
-                            LicensePlate = "54351-5400",
-                            TrailerInsuranceId = 10L
-                        });
                 });
 
             modelBuilder.Entity("Web.Models.Domain.TrailerInsurance", b =>
@@ -978,78 +722,6 @@ namespace Web.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("TrailerInsurance");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1L,
-                            ExpirationDate = new DateTime(2020, 9, 22, 23, 1, 9, 49, DateTimeKind.Local).AddTicks(762),
-                            InsuranceBusinessName = "Romaguera, Maggio and Glover",
-                            PolicyNumber = 69838194
-                        },
-                        new
-                        {
-                            Id = 2L,
-                            ExpirationDate = new DateTime(2020, 7, 3, 2, 53, 55, 374, DateTimeKind.Local).AddTicks(4244),
-                            InsuranceBusinessName = "Hills - Heathcote",
-                            PolicyNumber = 3672914
-                        },
-                        new
-                        {
-                            Id = 3L,
-                            ExpirationDate = new DateTime(2020, 3, 17, 4, 2, 41, 457, DateTimeKind.Local).AddTicks(770),
-                            InsuranceBusinessName = "Treutel - Zulauf",
-                            PolicyNumber = 35507802
-                        },
-                        new
-                        {
-                            Id = 4L,
-                            ExpirationDate = new DateTime(2020, 8, 24, 6, 10, 56, 804, DateTimeKind.Local).AddTicks(9412),
-                            InsuranceBusinessName = "Dietrich Inc",
-                            PolicyNumber = 85956674
-                        },
-                        new
-                        {
-                            Id = 5L,
-                            ExpirationDate = new DateTime(2020, 1, 19, 21, 36, 17, 688, DateTimeKind.Local).AddTicks(4948),
-                            InsuranceBusinessName = "Watsica, Boehm and Goldner",
-                            PolicyNumber = 30039803
-                        },
-                        new
-                        {
-                            Id = 6L,
-                            ExpirationDate = new DateTime(2020, 4, 2, 11, 21, 9, 896, DateTimeKind.Local).AddTicks(1135),
-                            InsuranceBusinessName = "Hilpert, Walker and Pfeffer",
-                            PolicyNumber = 58311868
-                        },
-                        new
-                        {
-                            Id = 7L,
-                            ExpirationDate = new DateTime(2020, 1, 5, 2, 5, 59, 746, DateTimeKind.Local).AddTicks(7211),
-                            InsuranceBusinessName = "Mayer and Sons",
-                            PolicyNumber = 17635820
-                        },
-                        new
-                        {
-                            Id = 8L,
-                            ExpirationDate = new DateTime(2020, 2, 7, 4, 26, 24, 375, DateTimeKind.Local).AddTicks(6366),
-                            InsuranceBusinessName = "Hand LLC",
-                            PolicyNumber = 49482515
-                        },
-                        new
-                        {
-                            Id = 9L,
-                            ExpirationDate = new DateTime(2020, 2, 24, 17, 26, 13, 497, DateTimeKind.Local).AddTicks(1866),
-                            InsuranceBusinessName = "Kovacek and Sons",
-                            PolicyNumber = 46345257
-                        },
-                        new
-                        {
-                            Id = 10L,
-                            ExpirationDate = new DateTime(2020, 6, 12, 22, 10, 25, 901, DateTimeKind.Local).AddTicks(26),
-                            InsuranceBusinessName = "Casper, Osinski and Beier",
-                            PolicyNumber = 61226104
-                        });
                 });
 
             modelBuilder.Entity("Web.Models.Domain.Vehicle", b =>
@@ -1072,98 +744,6 @@ namespace Web.Data.Migrations
                     b.HasIndex("VehicleInsuranceId");
 
                     b.ToTable("Vehicle");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1L,
-                            Brand = "Maserati",
-                            LicensePlate = "43183",
-                            Model = "Malibu",
-                            Type = "SUV",
-                            VehicleInsuranceId = 1L
-                        },
-                        new
-                        {
-                            Id = 2L,
-                            Brand = "Maserati",
-                            LicensePlate = "00306",
-                            Model = "A8",
-                            Type = "Coupe",
-                            VehicleInsuranceId = 2L
-                        },
-                        new
-                        {
-                            Id = 3L,
-                            Brand = "Audi",
-                            LicensePlate = "32599",
-                            Model = "Aventador",
-                            Type = "SUV",
-                            VehicleInsuranceId = 3L
-                        },
-                        new
-                        {
-                            Id = 4L,
-                            Brand = "Hyandai",
-                            LicensePlate = "64042",
-                            Model = "Mercielago",
-                            Type = "Hatchback",
-                            VehicleInsuranceId = 4L
-                        },
-                        new
-                        {
-                            Id = 5L,
-                            Brand = "Rolls Royce",
-                            LicensePlate = "25973-9161",
-                            Model = "Malibu",
-                            Type = "Cargo Van",
-                            VehicleInsuranceId = 5L
-                        },
-                        new
-                        {
-                            Id = 6L,
-                            Brand = "Fiat",
-                            LicensePlate = "08785",
-                            Model = "A4",
-                            Type = "Hatchback",
-                            VehicleInsuranceId = 6L
-                        },
-                        new
-                        {
-                            Id = 7L,
-                            Brand = "BMW",
-                            LicensePlate = "88318",
-                            Model = "Charger",
-                            Type = "Extended Cab Pickup",
-                            VehicleInsuranceId = 7L
-                        },
-                        new
-                        {
-                            Id = 8L,
-                            Brand = "Hyandai",
-                            LicensePlate = "75572-1586",
-                            Model = "Grand Caravan",
-                            Type = "SUV",
-                            VehicleInsuranceId = 8L
-                        },
-                        new
-                        {
-                            Id = 9L,
-                            Brand = "Lamborghini",
-                            LicensePlate = "69332",
-                            Model = "Impala",
-                            Type = "Sedan",
-                            VehicleInsuranceId = 9L
-                        },
-                        new
-                        {
-                            Id = 10L,
-                            Brand = "Fiat",
-                            LicensePlate = "64061-4112",
-                            Model = "CTS",
-                            Type = "Convertible",
-                            VehicleInsuranceId = 10L
-                        });
                 });
 
             modelBuilder.Entity("Web.Models.Domain.VehicleInsurance", b =>
@@ -1180,78 +760,6 @@ namespace Web.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("VehicleInsurance");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1L,
-                            ExpirationDate = new DateTime(2020, 4, 7, 8, 34, 43, 342, DateTimeKind.Local).AddTicks(351),
-                            InsuranceBusinessName = "Kunze Inc",
-                            PolicyNumber = 10168516
-                        },
-                        new
-                        {
-                            Id = 2L,
-                            ExpirationDate = new DateTime(2020, 4, 3, 20, 41, 29, 716, DateTimeKind.Local).AddTicks(1308),
-                            InsuranceBusinessName = "Hammes and Sons",
-                            PolicyNumber = 26542966
-                        },
-                        new
-                        {
-                            Id = 3L,
-                            ExpirationDate = new DateTime(2020, 5, 21, 10, 27, 18, 161, DateTimeKind.Local).AddTicks(5341),
-                            InsuranceBusinessName = "Thompson, Kuhic and Berge",
-                            PolicyNumber = 42254768
-                        },
-                        new
-                        {
-                            Id = 4L,
-                            ExpirationDate = new DateTime(2020, 9, 23, 20, 13, 49, 363, DateTimeKind.Local).AddTicks(1261),
-                            InsuranceBusinessName = "Gleason - Daugherty",
-                            PolicyNumber = 15380098
-                        },
-                        new
-                        {
-                            Id = 5L,
-                            ExpirationDate = new DateTime(2020, 6, 24, 0, 34, 24, 739, DateTimeKind.Local).AddTicks(1377),
-                            InsuranceBusinessName = "Johnson Group",
-                            PolicyNumber = 81602124
-                        },
-                        new
-                        {
-                            Id = 6L,
-                            ExpirationDate = new DateTime(2020, 1, 4, 20, 15, 37, 346, DateTimeKind.Local).AddTicks(6009),
-                            InsuranceBusinessName = "Hand - Wolff",
-                            PolicyNumber = 69321467
-                        },
-                        new
-                        {
-                            Id = 7L,
-                            ExpirationDate = new DateTime(2020, 1, 10, 21, 37, 47, 799, DateTimeKind.Local).AddTicks(2981),
-                            InsuranceBusinessName = "Will - Dibbert",
-                            PolicyNumber = 4981510
-                        },
-                        new
-                        {
-                            Id = 8L,
-                            ExpirationDate = new DateTime(2020, 7, 25, 18, 12, 7, 625, DateTimeKind.Local).AddTicks(6037),
-                            InsuranceBusinessName = "Fahey - Nolan",
-                            PolicyNumber = 23476479
-                        },
-                        new
-                        {
-                            Id = 9L,
-                            ExpirationDate = new DateTime(2020, 6, 28, 8, 40, 39, 712, DateTimeKind.Local).AddTicks(152),
-                            InsuranceBusinessName = "Nader, Steuber and White",
-                            PolicyNumber = 48448949
-                        },
-                        new
-                        {
-                            Id = 10L,
-                            ExpirationDate = new DateTime(2020, 4, 3, 1, 2, 42, 922, DateTimeKind.Local).AddTicks(8143),
-                            InsuranceBusinessName = "Stracke and Sons",
-                            PolicyNumber = 12149711
-                        });
                 });
 
             modelBuilder.Entity("Web.Models.Domain.WarehouseLocation", b =>
