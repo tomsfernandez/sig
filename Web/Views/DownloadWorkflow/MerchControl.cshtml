@@ -1,0 +1,58 @@
+@model MerchandiseControlViewModel
+
+@{
+    ViewBag.Title = "Control de Remito";
+    Layout = "_Layout";
+}
+
+<h2>Control de Remito</h2>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            Descripción
+        </th>
+        <th>
+            Código Externo
+        </th>
+        <th>
+            Cajas por pallet
+        </th>
+        <th>
+            Cantidad de pallets a descargar
+        </th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model.Merchandises) {
+        <tr>
+            <th>
+                @Html.DisplayFor(modelItem => item.Description)
+            </th>
+            <th>
+                @Html.DisplayFor(modelItem => item.ExternCode)
+            </th>
+            <th>
+                @Html.DisplayFor(modelItem => item.TotalBoxes)
+            </th>
+            <th>
+                @Html.DisplayFor(modelItem => item.RequestedPallets)
+            </th>
+        </tr>
+    }
+    </tbody>
+</table>
+<hr/>
+<div class="row">
+    <div class="col-md-12 text-center" style="display: flex; justify-content: center; align-items: center">
+        <form asp-action="RejectRemittance" style="margin-right: 10px">
+            <input type="hidden" asp-for="OperationStateId"/>
+            <button type="submit" value="Reject" class="btn btn-danger">Rechazar</button>
+        </form>
+        <form asp-action="ChooseDownloadDock" style="margin-right: 10px">
+            <input type="hidden" name="Id" asp-for="OperationStateId"/>
+            <button type="submit" value="Authorize" class="btn btn-success">Empezar descarga</button>
+        </form>
+    </div>
+</div>

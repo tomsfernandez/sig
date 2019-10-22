@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 namespace Web.Models.Domain {
     public class Merchandise {
         
@@ -11,5 +13,8 @@ namespace Web.Models.Domain {
         public double BoxWeight { get; set; }
         public Remittance Remittance { get; set; }
         public long RemittanceId { get; set; }
+
+        public int RequestedPallets { get; set; }
+        public List<Pallet> Pallets { get; set; }
     }
 }

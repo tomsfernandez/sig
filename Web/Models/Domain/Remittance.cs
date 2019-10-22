@@ -9,7 +9,7 @@ namespace Web.Models.Domain {
         public string DeliveryType { get; set; }
         public Client Client { get; set; }
         public long ClientId { get; set; }
-        public List<Merchandise> Merchandise { get; set; }
+        public List<Merchandise> Merchandise { get; set; } = new List<Merchandise>();
         public OperationState OperationState { get; set; }
     }
 }

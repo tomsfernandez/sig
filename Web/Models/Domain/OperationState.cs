@@ -3,6 +3,10 @@ using System;
 namespace Web.Models.Domain {
     public class OperationState {
 
+        public enum PossibleRemittanceStates {
+            Accepted, PartiallyAccepted, Rejected
+        }
+
         public long Id { get; set; }
         public string RemittanceState { get; set; }
         public string MerchandiseState { get; set; }

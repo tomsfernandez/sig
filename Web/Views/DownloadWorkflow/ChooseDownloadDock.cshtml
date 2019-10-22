@@ -1,0 +1,49 @@
+@model ChooseDocksViewModel
+
+@{
+    ViewBag.Title = "Elejir puerto de descarga";
+    Layout = "_Layout";
+}
+
+<h1>Elegir puerto de descarga</h1>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            Nro de Puerto
+        </th>
+        <th>
+            Estado
+        </th>
+        <th>Acciones</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model.Docks) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @if (item.Occupied) {
+                    @("Ocupado")
+                    
+                }
+                else {
+                    @("Libre")   
+                }
+            </td>
+            <td>
+                @if (!item.Occupied) {
+                    <form asp-action="StartDownload" style="margin-right: 10px">
+                        <input type="hidden" name="DockId" asp-for="@item.Id"/>
+                        <input type="hidden" name="OperationId" asp-for="OperationId">
+                        <button type="submit" value="Authorize" class="btn btn-success">Confirmar puerto</button>
+                    </form>    
+                }
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
