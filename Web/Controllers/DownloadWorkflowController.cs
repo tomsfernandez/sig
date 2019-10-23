@@ -58,7 +58,7 @@ namespace Web.Controllers {
         public async Task<IActionResult> ChooseDownloadDock(long Id) {
             var operation = await _context.OperationState.FindAsync(Id);
             operation.MerchandiseState = "InDownload";
-            if (operation.DockId != 0) {
+            if (operation.DockId != null) {
                 return RedirectToAction(nameof(StartDownload), new {OperationId = Id, DockId = operation.DockId});
             }
             var docks = await _context.Dock.ToListAsync();
@@ -71,7 +71,7 @@ namespace Web.Controllers {
 
         public async Task<IActionResult> StartDownload(long OperationId, long DockId) {
             var dock = await _context.Dock.FindAsync(DockId);
-            dock.Occupied = true;
+            dock.Occupied = 0;
             var operation = await _context.OperationState
                 .Include(x => x.Dock)
                 .Include(x => x.Remittance)

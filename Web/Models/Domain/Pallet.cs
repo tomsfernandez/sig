@@ -14,7 +14,7 @@ namespace Web.Models.Domain {
         public DateTime ExitTimestamp { get; set; }
         public string State { get; set; } = PalletStates.Downloaded.ToString();
         public WarehouseLocation WarehouseLocation { get; set; }
-        public long WarehouseLocationId { get; set; }
+        public long? WarehouseLocationId { get; set; }
         public Merchandise Merchandise { get; set; }
         public long MerchandiseId { get; set; }
     }

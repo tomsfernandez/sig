@@ -10,7 +10,10 @@
     <thead>
     <tr>
         <th>
-            Fecha de entrada
+            Entrada
+        </th>
+        <th>
+            Salida
         </th>
         <th>
             Número de remito
@@ -31,7 +34,10 @@
     @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Remittance.Date.Date)
+                @Html.DisplayFor(modelItem => item.EntryDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ExitDate)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Remittance.Id)

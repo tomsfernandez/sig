@@ -5,6 +5,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Web.Data;
 using Web.Models;
+using Web.Models.Domain;
 
 namespace Web.Controllers {
     public class SecurityEntryController : Controller {
@@ -20,7 +21,8 @@ namespace Web.Controllers {
                 .Include(t => t.Remittance)
                 .Include(t => t.Trailer)
                 .Include(t => t.Vehicle)
-                .Where(e => e.Remittance.Date.Date == DateTime.Today);
+                .Where(e => e.Remittance.Date.Date == DateTime.Today)
+                .Where(e => e.EntryDate != e.ExitDate || e.EntryDate == null);
 
             return View(await entries.ToListAsync());
         }
@@ -56,32 +58,70 @@ namespace Web.Controllers {
         // POST: SecurityEntry/Authorize/5
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Authorize(long? entryId) {
-            return NotFound();
-        }
-
-        public async Task<IActionResult> Reject(long? entryId) {
-            if (entryId == null) {
+        public async Task<IActionResult> Authorize(long? Id) {
+            if (Id == null) {
                 return BadRequest();
             }
 
-            var entry = await _context.Entry.FirstOrDefaultAsync(m => m.Id == entryId);
+            var entry = _context.Entry.Include(d => d.Remittance).First(e => e.Id == Id);;
 
-            entry.ExitDate = new DateTime();
+            entry.EntryDate = DateTime.Now;
 
-            if (ModelState.IsValid) {
-                try {
-                    _context.Update(entry);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException) {
-                    return NotFound();
-                }
+            var os = new OperationState {RemittanceId = entry.Remittance.Id, EntryId = entry.Id};
 
-                return RedirectToAction(nameof(Index));
+            try
+            {
+                _context.OperationState.Add(os);
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException)
+            {
+                return NotFound();
+            }
+            
+            return RedirectToAction(nameof(Index));
+        }
+        
+        [HttpPost, ActionName("Reject")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> RejectConfirmed(long Id)
+        {
+
+            var entry = _context.Entry.Find(Id);
+            var date = DateTime.Now;
+
+            entry.EntryDate = date;
+            entry.ExitDate = date;
+            
+            try {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException) {
+                return NotFound();
             }
 
-            return NotFound();
+            return RedirectToAction(nameof(Index));
+
+        }
+        
+        [HttpPost, ActionName("Exit")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> ExitConfirmed(long Id)
+        {
+
+            var entry = _context.Entry.Find(Id);
+            
+            entry.ExitDate = DateTime.Now;
+            
+            try {
+                await _context.SaveChangesAsync();
+            }
+            catch (DbUpdateConcurrencyException) {
+                return NotFound();
+            }
+
+            return RedirectToAction(nameof(Index));
+
         }
     }
 }

@@ -7,7 +7,7 @@ namespace Web.Models.Domain {
         public string Level { get; set; }
 
         public string ToString() {
-            return $"Cod {Id}, Sección {Section} {Aisle}, Posición {Position}, Nivel {Level}";
+            return $"Cod {Id}, Sección {Section}, Pasillo {Aisle}, Posición {Position}, Nivel {Level}";
         }
     }
 }

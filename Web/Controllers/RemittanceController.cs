@@ -63,11 +63,6 @@ namespace Web.Controllers
             {
                 _context.Add(remittance);
                 await _context.SaveChangesAsync();
-                _context.OperationState.Add(new OperationState {
-                    Remittance = remittance,
-                    RemittanceId = remittance.Id
-                });
-                await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
             ViewData["ClientId"] = new SelectList(_context.Client, "Id", "Id", remittance.ClientId);

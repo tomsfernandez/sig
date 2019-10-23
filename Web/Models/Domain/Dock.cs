@@ -1,3 +1,5 @@
+using System;
+
 namespace Web.Models.Domain {
     public class Dock {
         public long Id { get; set; }

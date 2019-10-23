@@ -15,7 +15,7 @@ namespace Web.Models.Domain {
         public Entry Entry { get; set; }
         public long EntryId { get; set; }
         public Dock Dock { get; set; }
-        public long DockId { get; set; }
+        public long? DockId { get; set; }
         
         public DateTime DownloadStartedAt { get; set; }
         public DateTime DownloadFinishedAt { get; set; }

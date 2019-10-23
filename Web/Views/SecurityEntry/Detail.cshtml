@@ -11,6 +11,7 @@
         <h2>Chofer</h2>
         <h4>Nombre</h4>
         <p>@Html.DisplayFor(model => model.Entry.Driver.Name)</p>
+        <p>@Html.DisplayFor(model => model.Entry.Id)</p>
         <h4>Apellido</h4>
         <p>@Html.DisplayFor(model => model.Entry.Driver.LastName)</p>
         <h4>DNI</h4>
@@ -47,7 +48,7 @@
     <div class="col-md-6 driver">
         <h2>Remito</h2>
         <h4>Cliente</h4>
-        <p>@Html.DisplayFor(model => model.Entry.Remittance.Client)</p>
+        <p>@Html.DisplayFor(model => model.Entry.Remittance.Client.BusinessName)</p>
         <h4>Numero</h4>
         <p>@Html.DisplayFor(model => model.Entry.Remittance.Id)</p>
         <h4>Tipo de delivery</h4>
@@ -64,17 +65,33 @@
     </div>
 </div>
 <hr/>
-<div class="row">
-    <div class="col-md-12 text-center" style="display: flex; justify-content: center; align-items: center">
-        <form asp-action="Reject" style="margin-right: 10px">
-            <input type="hidden" asp-for="Entry.Id"/>
-            <button type="submit" value="Reject" class="btn btn-danger">Rechazar</button>
-        </form>
-        <form asp-action="Authorize" style="margin-right: 10px">
-            <input type="hidden" asp-for="Entry.Id"/>
-            <button type="submit" value="Authorize" class="btn btn-success">Autorizar</button>
-        </form>
+@if (@Model.Entry.EntryDate == null)
+{
+    <div class="row">
+        <div class="col-md-12 text-center" style="display: flex; justify-content: center; align-items: center">
+            <form asp-action="Reject">
+                <input type="hidden" name="Id" value="@Model.Entry.Id" />
+                <input type="submit" value="Rechazar" class="btn btn-danger" /> 
+            </form>
+            <form asp-action="Authorize" style="margin-right: 10px">
+                <input type="hidden" name="Id" value="@Model.Entry.Id"/>
+                <button type="submit" value="Authorize" class="btn btn-success">Autorizar</button>
+            </form>
+        </div>
     </div>
-</div>
+}
+
+@if (@Model.Entry.EntryDate != null && @Model.Entry.ExitDate == null)
+{
+    <div class="row">
+        <div class="col-md-12 text-center" style="display: flex; justify-content: center; align-items: center">
+            <form asp-action="Exit">
+                <input type="hidden" name="Id" value="@Model.Entry.Id" />
+                <input type="submit" value="Salida" class="btn btn-success" /> 
+            </form>
+        </div>
+    </div>
+}
+
 
 <a asp-action="Index">Volver</a>

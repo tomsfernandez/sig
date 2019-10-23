@@ -118,5 +118,66 @@ namespace Web.Data {
                 .RuleFor(d => d.Occupied, f => false);
             return docks.GenerateForever().Take(amount).ToList();
         }
+        
+        public static List<Remittance> SeedRemittances(int amount = 10)
+        {
+            var ids = 1L;
+            var clientIds = 1L;
+            var remittances = new Faker<Remittance>()
+                .RuleFor(d => d.Id, f => ids++)
+                .RuleFor(d => d.DeliveryType, "Transporte de carga")
+                .RuleFor(d => d.Date, f => f.Date.Soon())
+                .RuleFor( d => d.ClientId, f => clientIds);
+            return remittances.GenerateForever().Take(amount).ToList();
+        }
+
+        public static List<Entry> SeedEntries(int amount = 10)
+        {
+            var ids = 1L;
+            var remittanceIds = 1L;
+            var driverIds = 1L;
+            var vehicleIds = 1L;
+            var trailerIds = 1L;
+            var entries = new Faker<Entry>()
+                .RuleFor(d => d.Id, f => ids++)
+                .RuleFor(d => d.RemittanceId, f => remittanceIds++)
+                .RuleFor(d => d.DriverId, f => driverIds++)
+                .RuleFor(d => d.VehicleId, f => vehicleIds++)
+                .RuleFor(d => d.TrailerId, f => trailerIds++);
+            return entries.GenerateForever().Take(amount).ToList();
+        }
+        
+        
+        // TODO merchandise
+        public static List<Merchandise> SeedMerchandises(int amount = 10)
+        {
+            var ids = 1L;
+            var remittanceIds = 1L;
+            var merchandise = new Faker<Merchandise>()
+                .RuleFor(d => d.Id, f => ids++)
+                .RuleFor(d => d.Description, f => f.Commerce.ProductAdjective())
+                .RuleFor(d => d.ExternCode, f => f.Commerce.Ean8())
+                .RuleFor( d => d.RequestedPallets, 10)
+                .RuleFor(d => d.TotalBoxes, f => int.Parse(f.Commerce.Ean8()))
+                .RuleFor(d => d.BoxHeight, f => int.Parse(f.Commerce.Ean8()))
+                .RuleFor(d => d.BoxWidth, f => int.Parse(f.Commerce.Ean8()))
+                .RuleFor(d => d.BoxLength, f => int.Parse(f.Commerce.Ean8()))
+                .RuleFor(d => d.BoxWeight, f => int.Parse(f.Commerce.Ean8()))
+                .RuleFor(d => d.RemittanceId, f => remittanceIds);
+
+            return merchandise.GenerateForever().Take(amount).ToList();
+        }
+        
+        public static List<WarehouseLocation> SeedWarehouseLocations()
+        {
+            var ids = 1L;
+            
+            var warehouseLocation = new Faker<WarehouseLocation>();
+
+
+            return warehouseLocation.GenerateForever().Take(10).ToList();
+        }
+        
+        // TODO pallet
     }
 }
