@@ -15,6 +15,7 @@ namespace Web.Models.Domain {
         public long RemittanceId { get; set; }
 
         public int RequestedPallets { get; set; }
+        public int DownloadedPallets { get; set; }
         public List<Pallet> Pallets { get; set; }
     }
 }

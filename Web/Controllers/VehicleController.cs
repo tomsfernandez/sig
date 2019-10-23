@@ -46,9 +46,10 @@ namespace Web.Controllers
         }
 
         // GET: Vehicle/Create
-        public IActionResult Create()
-        {
-            ViewData["VehicleInsuranceId"] = new SelectList(_context.VehicleInsurance, "Id", "Id");
+        public IActionResult Create() {
+            var selectList = _context.VehicleInsurance.Select(v => new SelectListItem
+                {Value = v.Id.ToString(), Text = v.ToString()});
+            ViewData["VehicleInsuranceId"] = selectList;
             return View();
         }
 

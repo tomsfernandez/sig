@@ -5,5 +5,9 @@ namespace Web.Models.Domain {
         public string Aisle { get; set; }
         public string Position { get; set; }
         public string Level { get; set; }
+
+        public string ToString() {
+            return $"Cod {Id}, Sección {Section} {Aisle}, Posición {Position}, Nivel {Level}";
+        }
     }
 }

@@ -47,10 +47,13 @@ namespace Web.Controllers
         }
 
         // GET: DriverPermit/Create
-        public IActionResult Create()
-        {
-            ViewData["DriverId"] = new SelectList(_context.Driver, "Id", "Id");
-            ViewData["VehicleId"] = new SelectList(_context.Vehicle, "Id", "Id");
+        public IActionResult Create() {
+            var driversSelect = _context.Driver
+                .Select(d => new SelectListItem {Value = d.Id.ToString(), Text = d.ToString()});
+            var vehicleSelect = _context.Vehicle
+                .Select(v => new SelectListItem {Value = v.Id.ToString(), Text = v.ToString()});
+            ViewData["DriverId"] = driversSelect;
+            ViewData["VehicleId"] = vehicleSelect;
             return View();
         }
 
@@ -67,8 +70,13 @@ namespace Web.Controllers
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            ViewData["DriverId"] = new SelectList(_context.Driver, "Id", "Id", driverPermit.DriverId);
-            ViewData["VehicleId"] = new SelectList(_context.Vehicle, "Id", "Id", driverPermit.VehicleId);
+
+            var driversSelect = _context.Driver
+                .Select(d => new SelectListItem {Value = d.Id.ToString(), Text = d.ToString()});
+            var vehicleSelect = _context.Vehicle
+                .Select(v => new SelectListItem {Value = v.Id.ToString(), Text = v.ToString()});
+            ViewData["DriverId"] = new SelectList(driversSelect, driverPermit.DriverId);
+            ViewData["VehicleId"] = new SelectList(vehicleSelect, driverPermit.VehicleId);
             return View(driverPermit);
         }
 

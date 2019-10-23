@@ -23,14 +23,15 @@ namespace Web.Controllers {
                 .Include(x => x.Client)
                 .Include(x => x.OperationState)
                     .ThenInclude(x => x.Dock)
-                .Where(x => x.OperationState.RemittanceState != OperationState.PossibleRemittanceStates.Rejected.ToString())
+                .Where(x => x.OperationState.RemittanceState == "")
                 .ToListAsync();
             var result = remittances.Select(x => new RemittanceToDownload {
                 ClientName = x.Client.BusinessName,
                 State = x.OperationState.State(),
                 DeliveryType = x.DeliveryType,
                 Dock = x.OperationState.Dock == null ? "Sin Asignar" : x.OperationState.Dock.Id.ToString(),
-                Id = x.Id
+                Id = x.Id,
+                InDownload = x.OperationState.MerchandiseState != ""
             });
             return View(result);
         }
@@ -55,7 +56,13 @@ namespace Web.Controllers {
         }
 
         public async Task<IActionResult> ChooseDownloadDock(long Id) {
+            var operation = await _context.OperationState.FindAsync(Id);
+            operation.MerchandiseState = "InDownload";
+            if (operation.DockId != 0) {
+                return RedirectToAction(nameof(StartDownload), new {OperationId = Id, DockId = operation.DockId});
+            }
             var docks = await _context.Dock.ToListAsync();
+            await _context.SaveChangesAsync();
             return View(new ChooseDocksViewModel {
                 OperationId = Id,
                 Docks = docks
@@ -64,13 +71,46 @@ namespace Web.Controllers {
 
         public async Task<IActionResult> StartDownload(long OperationId, long DockId) {
             var dock = await _context.Dock.FindAsync(DockId);
+            dock.Occupied = true;
             var operation = await _context.OperationState
+                .Include(x => x.Dock)
                 .Include(x => x.Remittance)
                     .ThenInclude(x => x.Merchandise)
                 .SingleAsync(x => x.Id == OperationId);
             operation.Dock = dock;
             await _context.SaveChangesAsync();
-            return View(operation.Remittance.Merchandise);
+            return View(operation);
+        }
+
+        public async Task<IActionResult> SubmitDownload() {
+            var merchandiseIds = Request.Form.Keys
+                .Where(x => x != "OperationId" && x != "__RequestVerificationToken")
+                .Select(x => long.Parse(x))
+                .ToList();
+            var operationId = long.Parse(Request.Form["OperationId"]);
+            var operation = await _context.OperationState
+                .Include(x => x.Dock)
+                .SingleAsync(x => x.Id == operationId);
+            var merchandises = await _context.Merchandise.Where(x => merchandiseIds.Contains(x.Id)).ToListAsync();
+            merchandises.ForEach(m => m.DownloadedPallets = int.Parse(Request.Form[m.Id.ToString()]));
+            var acceptFull = merchandises.Select(m => m.DownloadedPallets == m.RequestedPallets)
+                .Aggregate(true, (acc, curr) => acc && curr);
+            if (acceptFull) operation.RemittanceState = OperationState.PossibleRemittanceStates.Accepted.ToString();
+            else operation.RemittanceState = OperationState.PossibleRemittanceStates.PartiallyAccepted.ToString();
+            operation.MerchandiseState = "Downloaded";
+            operation.Dock.Occupied = false;
+            var pallets = merchandises.SelectMany(x => {
+                return Enumerable.Range(0, x.DownloadedPallets).Select(y => new Pallet {
+                    EntryTimestamp = DateTime.Now,
+                    AmountOfBoxes = 100000,
+                    Height = 100,
+                    Weight = 3,
+                    MerchandiseId = x.Id
+                });
+            }).ToList();
+            _context.Pallet.AddRange(pallets);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(ListEnteredRemittances));
         }
     }
 }

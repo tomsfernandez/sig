@@ -46,9 +46,10 @@ namespace Web.Controllers
         }
 
         // GET: Client/Create
-        public IActionResult Create()
-        {
-            ViewData["AddressId"] = new SelectList(_context.Address, "Id", "Id");
+        public IActionResult Create() {
+            var selectList = _context.Address
+                .Select(x => new SelectListItem {Value = x.Id.ToString(), Text = x.ToString()});
+            ViewData["AddressId"] = selectList;
             return View();
         }
 

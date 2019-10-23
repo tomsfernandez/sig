@@ -8,5 +8,9 @@ namespace Web.Models.Domain {
         public string Type { get; set; }
         public VehicleInsurance Insurance { get; set; }
         public long VehicleInsuranceId { get; set; }
+
+        public string ToString() {
+            return $"{Type} - {Brand} {Model} {LicensePlate}";
+        }
     }
 }

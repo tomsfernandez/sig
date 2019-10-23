@@ -5,5 +5,9 @@ namespace Web.Models.Domain {
         public string LicensePlate { get; set; }
         public TrailerInsurance Insurance { get; set; }
         public long TrailerInsuranceId { get; set; }
+
+        public string ToString() {
+            return $"Patente {LicensePlate}";
+        }
     }
 }

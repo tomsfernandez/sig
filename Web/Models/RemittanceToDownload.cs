@@ -8,5 +8,6 @@ namespace Web.Models {
         public string DeliveryType { get; set; }
         public string State { get; set; }
         public string Dock { get; set; }
+        public bool InDownload { get; set; }
     }
 }

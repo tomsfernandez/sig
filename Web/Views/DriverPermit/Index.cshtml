@@ -28,10 +28,10 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.Vehicle.Id)
+                @(item.Vehicle.ToString())
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.Driver.Id)
+                @(item.Driver.ToString())
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.ExpirationDate)

@@ -41,7 +41,9 @@
                 @Html.DisplayFor(modelItem => item.Dock)
             </td>
             <td>
-                <a asp-action="MerchControl" asp-route-id="@item.Id">Ver detalle</a>
+                @if (!item.InDownload) {
+                    <a asp-action="MerchControl" asp-route-id="@item.Id">Ver detalle</a>
+                }
             </td>
         </tr>
     }

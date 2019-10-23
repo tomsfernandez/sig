@@ -8,8 +8,8 @@ namespace Web.Models.Domain {
         }
 
         public long Id { get; set; }
-        public string RemittanceState { get; set; }
-        public string MerchandiseState { get; set; }
+        public string RemittanceState { get; set; } = "";
+        public string MerchandiseState { get; set; } = "";
         public Remittance Remittance { get; set; }
         public long RemittanceId { get; set; }
         public Entry Entry { get; set; }

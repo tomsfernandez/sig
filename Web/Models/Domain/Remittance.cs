@@ -11,5 +11,9 @@ namespace Web.Models.Domain {
         public long ClientId { get; set; }
         public List<Merchandise> Merchandise { get; set; } = new List<Merchandise>();
         public OperationState OperationState { get; set; }
+
+        public string ToString() {
+            return $"Remito para ${Date} con entrega tipo {DeliveryType}";
+        }
     }
 }

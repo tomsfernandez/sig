@@ -1,0 +1,38 @@
+@model List<Web.Models.Domain.Pallet>
+
+@{
+    ViewBag.Title = "Pallets a Descargar";
+    Layout = "_Layout";
+}
+
+<h2>Pallets a Descargar</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Código
+            </th>
+            <th>
+                Producto
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Merchandise.Description)
+            </td>
+            <td>
+                <a asp-action="StorageConfirmation" asp-route-id="@item.Id">Ubicar</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+

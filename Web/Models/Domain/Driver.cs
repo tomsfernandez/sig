@@ -7,5 +7,9 @@ namespace Web.Models.Domain {
         public string Name { get; set; }
         public string LastName { get; set; }
         public string Dni { get; set; }
+
+        public string ToString() {
+            return $"{LastName}, {Name} - {Dni}";
+        }
     }
 }

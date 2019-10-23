@@ -1,3 +1,5 @@
+using System;
+
 namespace Web.Models.Domain {
     public class Address {
 
@@ -6,5 +8,9 @@ namespace Web.Models.Domain {
         public string City { get; set; }
         public string Country { get; set; }
         public string StreetHeight { get; set; }
+
+        public string ToString() {
+            return $"{Street} - ${StreetHeight}, {City}, {Country}";
+        }
     }
 }

@@ -19,7 +19,7 @@ namespace Web.Data.Migrations
                     EntryTimestamp = table.Column<DateTime>(nullable: false),
                     ExitTimestamp = table.Column<DateTime>(nullable: false),
                     State = table.Column<string>(nullable: true),
-                    WarehouseLocationId = table.Column<long>(nullable: false),
+                    WarehouseLocationId = table.Column<long>(nullable: true),
                     MerchandiseId = table.Column<long>(nullable: false)
                 },
                 constraints: table =>
