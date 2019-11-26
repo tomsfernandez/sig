@@ -14,6 +14,7 @@ namespace Web.Models.Domain {
         public Trailer Trailer { get; set; }
         public long TrailerId { get; set; }
 
+        public string RejectionReason { get; set; } = "";
         public bool HasEntered() {
             return EntryDate.HasValue;
         }

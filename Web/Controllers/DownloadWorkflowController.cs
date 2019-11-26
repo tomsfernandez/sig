@@ -71,7 +71,7 @@ namespace Web.Controllers {
 
         public async Task<IActionResult> StartDownload(long OperationId, long DockId) {
             var dock = await _context.Dock.FindAsync(DockId);
-            dock.Occupied = 0;
+            dock.Occupied = true;
             var operation = await _context.OperationState
                 .Include(x => x.Dock)
                 .Include(x => x.Remittance)

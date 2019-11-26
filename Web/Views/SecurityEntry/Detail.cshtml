@@ -2,6 +2,7 @@
 
 @{
     ViewData["Title"] = "Detail";
+    Layout = "_Layout";
 }
 
 <h1>Detalles</h1>
@@ -55,28 +56,43 @@
         <p>@Html.DisplayFor(model => model.Entry.Remittance.DeliveryType)</p>
     </div>
     <div class="col-md-6">
-        <h2>Permiso Vehiculo</h2>
-        <h4>Numero de poliza</h4>
-        <p>@Html.DisplayFor(model => model.Entry.Vehicle.Insurance.PolicyNumber)</p>
-        <h4>Fecha de expiracion</h4>
-        <p>@Html.DisplayFor(model => model.Entry.Vehicle.Insurance.ExpirationDate)</p>
-        <h4>Nombre aseguradora</h4>
-        <p>@Html.DisplayFor(model => model.Entry.Vehicle.Insurance.InsuranceBusinessName)</p>
+        <h2>Trailer</h2>
+        <h4>Numero de patente</h4>
+        <p>@Html.DisplayFor(model => model.Entry.Trailer.LicensePlate)</p>
+        <h4>Aseguradora</h4>
+        <p>@Html.DisplayFor(model => model.Entry.Trailer.Insurance.InsuranceBusinessName)</p>
+        <h4>Nombre de poliza</h4>
+        <p>@Html.DisplayFor(model => model.Entry.Trailer.Insurance.PolicyNumber)</p>
+        <h4>Fecha de expiración</h4>
+        <p>@Html.DisplayFor(model => model.Entry.Trailer.Insurance.ExpirationDate)</p>
     </div>
 </div>
 <hr/>
+@if (@Model.Entry.EntryDate == null) { 
+    
+}
+
 @if (@Model.Entry.EntryDate == null)
 {
     <div class="row">
         <div class="col-md-12 text-center" style="display: flex; justify-content: center; align-items: center">
             <form asp-action="Reject">
                 <input type="hidden" name="Id" value="@Model.Entry.Id" />
+                <textarea placeholder="Escriba..." style="width: 100%" name="RejectionText" required></textarea> 
                 <input type="submit" value="Rechazar" class="btn btn-danger" /> 
             </form>
-            <form asp-action="Authorize" style="margin-right: 10px">
-                <input type="hidden" name="Id" value="@Model.Entry.Id"/>
-                <button type="submit" value="Authorize" class="btn btn-success">Autorizar</button>
-            </form>
+           
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12" style="display: flex; justify-content: center; align-items: center">
+             @if (@Model.CanEnter)
+            {
+                <form asp-action="Authorize" style="margin-top: 10px">
+                    <input type="hidden" name="Id" value="@Model.Entry.Id"/>
+                    <button type="submit" value="Authorize" class="btn btn-success">Autorizar</button>
+                </form>
+            }
         </div>
     </div>
 }
@@ -84,10 +100,17 @@
 @if (@Model.Entry.EntryDate != null && @Model.Entry.ExitDate == null)
 {
     <div class="row">
+        <div class="col-md-12">
+            <span asp-validation-for="ExitConfirmation" class="text-danger"></span>
+        </div>
+    </div>
+    <div class="row">
         <div class="col-md-12 text-center" style="display: flex; justify-content: center; align-items: center">
+        <div class="form-group">
+        </div>
             <form asp-action="Exit">
-                <input type="hidden" name="Id" value="@Model.Entry.Id" />
-                <input type="submit" value="Salida" class="btn btn-success" /> 
+                <input type="hidden" name="Id" value="@Model.Entry.Id"/>
+                <input type="submit" value="Salida" class="btn btn-success"/>
             </form>
         </div>
     </div>

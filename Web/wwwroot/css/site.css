@@ -34,6 +34,10 @@ button.accept-policy {
   line-height: inherit;
 }
 
+nav.navbar {
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%) !important;
+}
+
 /* Sticky footer styles
 -------------------------------------------------- */
 html {
