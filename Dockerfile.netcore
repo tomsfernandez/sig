@@ -13,4 +13,5 @@ ENV PROJECT_NAME ${PROJECT_NAME}
 RUN echo ${PROJECT_NAME}
 WORKDIR /app
 COPY --from=build-env /app/out .
+COPY --from=build-env /app/Web/app.db .
 ENTRYPOINT ["sh", "-c", "dotnet $PROJECT_NAME.dll"]
