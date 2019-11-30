@@ -4,7 +4,7 @@ ENV PROJECT_NAME ${PROJECT_NAME}
 WORKDIR /app
 COPY . .
 
-RUN cd ${PROJECT_NAME}/ && dotnet clean && dotnet publish -c Release -o /app/out
+RUN cd ${PROJECT_NAME}/ && dotnet clean && && dotnet ef database update --context ApplicationDbContext && dotnet publish -c Release -o /app/out
 
 # build runtime image
 FROM microsoft/dotnet:2.2-aspnetcore-runtime-alpine
