@@ -1,0 +1,13 @@
+version: '3.3'
+
+services:
+  api:
+    image: api
+    container_name: 'api'
+    build:
+      context: .
+      dockerfile: Dockerfile.netcore
+      args:
+        PROJECT_NAME: Web
+    ports:
+      - "80:80"
