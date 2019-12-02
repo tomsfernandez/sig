@@ -57,7 +57,7 @@ namespace Web.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Description,ExternCode,TotalBoxes,BoxHeight,BoxWidth,BoxLength,BoxWeight,RemittanceId")] Merchandise merchandise)
+        public async Task<IActionResult> Create([Bind("Id,Description,RequestedPallets,ExternCode,TotalBoxes,BoxHeight,BoxWidth,BoxLength,BoxWeight,RemittanceId")] Merchandise merchandise)
         {
             if (ModelState.IsValid)
             {
@@ -91,7 +91,7 @@ namespace Web.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(long id, [Bind("Id,Description,ExternCode,TotalBoxes,BoxHeight,BoxWidth,BoxLength,BoxWeight,RemittanceId")] Merchandise merchandise)
+        public async Task<IActionResult> Edit(long id, [Bind("Id,Description,RequestedPallets,ExternCode,TotalBoxes,BoxHeight,BoxWidth,BoxLength,BoxWeight,RemittanceId")] Merchandise merchandise)
         {
             if (id != merchandise.Id)
             {
